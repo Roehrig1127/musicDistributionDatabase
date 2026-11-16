@@ -1,0 +1,2577 @@
+artist_role,track_ID,artist_ID
+Primary Artist,1,1
+Composer,1,1
+Primary Artist,2,1
+Composer,2,1
+Primary Artist,3,1
+Composer,3,1
+Producer,3,6
+Primary Artist,4,1
+Composer,4,1
+Primary Artist,5,1
+Composer,5,1
+Primary Artist,6,1
+Composer,6,1
+Mixing Engineer,6,43
+Primary Artist,7,1
+Composer,7,1
+Primary Artist,8,1
+Composer,8,1
+Primary Artist,9,1
+Composer,9,1
+Producer,9,13
+Primary Artist,10,1
+Composer,10,1
+Primary Artist,11,1
+Composer,11,1
+Primary Artist,12,1
+Composer,12,1
+Featured Artist,12,21
+Primary Artist,13,1
+Composer,13,1
+Primary Artist,14,1
+Composer,14,1
+Primary Artist,15,1
+Composer,15,1
+Producer,15,29
+Primary Artist,16,1
+Composer,16,1
+Primary Artist,17,1
+Composer,17,1
+Primary Artist,18,1
+Composer,18,1
+Producer,18,42
+Primary Artist,19,1
+Composer,19,1
+Primary Artist,20,1
+Composer,20,1
+Primary Artist,21,1
+Composer,21,1
+Featured Artist,21,48
+Primary Artist,22,1
+Composer,22,1
+Primary Artist,23,1
+Composer,23,1
+Primary Artist,24,2
+Composer,24,2
+Featured Artist,24,6
+Primary Artist,25,2
+Composer,25,2
+Primary Artist,26,2
+Composer,26,2
+Primary Artist,27,2
+Composer,27,2
+Featured Artist,27,23
+Primary Artist,28,2
+Composer,28,2
+Primary Artist,29,2
+Composer,29,2
+Primary Artist,30,2
+Composer,30,2
+Featured Artist,30,31
+Primary Artist,31,2
+Composer,31,2
+Primary Artist,32,2
+Composer,32,2
+Primary Artist,33,2
+Composer,33,2
+Featured Artist,33,43
+Primary Artist,34,2
+Composer,34,2
+Primary Artist,35,2
+Composer,35,2
+Primary Artist,36,2
+Composer,36,2
+Producer,36,11
+Primary Artist,37,2
+Composer,37,2
+Primary Artist,38,2
+Composer,38,2
+Primary Artist,39,2
+Composer,39,2
+Featured Artist,39,37
+Primary Artist,40,2
+Composer,40,2
+Primary Artist,41,2
+Composer,41,2
+Primary Artist,42,2
+Composer,42,2
+Mixing Engineer,42,11
+Primary Artist,43,2
+Composer,43,2
+Primary Artist,44,2
+Composer,44,2
+Primary Artist,45,2
+Composer,45,2
+Featured Artist,45,3
+Primary Artist,46,2
+Composer,46,2
+Primary Artist,47,3
+Composer,47,3
+Primary Artist,48,3
+Composer,48,3
+Mixing Engineer,48,35
+Primary Artist,49,3
+Composer,49,3
+Primary Artist,50,3
+Composer,50,3
+Primary Artist,51,3
+Composer,51,3
+Producer,51,22
+Primary Artist,52,3
+Composer,52,3
+Primary Artist,53,3
+Composer,53,3
+Primary Artist,54,3
+Composer,54,3
+Featured Artist,54,27
+Primary Artist,55,3
+Composer,55,3
+Primary Artist,56,3
+Composer,56,3
+Primary Artist,57,3
+Composer,57,3
+Featured Artist,57,36
+Primary Artist,58,3
+Composer,58,3
+Primary Artist,59,3
+Composer,59,3
+Primary Artist,60,3
+Composer,60,3
+Producer,60,25
+Primary Artist,61,3
+Composer,61,3
+Primary Artist,62,3
+Composer,62,3
+Primary Artist,63,3
+Composer,63,3
+Producer,63,1
+Primary Artist,64,3
+Composer,64,3
+Primary Artist,65,3
+Composer,65,3
+Primary Artist,66,3
+Composer,66,3
+Producer,66,23
+Primary Artist,67,3
+Composer,67,3
+Primary Artist,68,3
+Composer,68,3
+Primary Artist,69,3
+Composer,69,3
+Mixing Engineer,69,46
+Primary Artist,70,4
+Composer,70,4
+Primary Artist,71,4
+Composer,71,4
+Primary Artist,72,4
+Composer,72,4
+Featured Artist,72,36
+Primary Artist,73,4
+Composer,73,4
+Primary Artist,74,4
+Composer,74,4
+Primary Artist,75,4
+Composer,75,4
+Featured Artist,75,25
+Primary Artist,76,4
+Composer,76,4
+Primary Artist,77,4
+Composer,77,4
+Primary Artist,78,4
+Composer,78,4
+Mixing Engineer,78,40
+Primary Artist,79,4
+Composer,79,4
+Primary Artist,80,4
+Composer,80,4
+Primary Artist,81,4
+Composer,81,4
+Producer,81,22
+Primary Artist,82,4
+Composer,82,4
+Primary Artist,83,4
+Composer,83,4
+Primary Artist,84,4
+Composer,84,4
+Mixing Engineer,84,16
+Primary Artist,85,4
+Composer,85,4
+Primary Artist,86,4
+Composer,86,4
+Primary Artist,87,4
+Composer,87,4
+Featured Artist,87,37
+Primary Artist,88,4
+Composer,88,4
+Primary Artist,89,4
+Composer,89,4
+Primary Artist,90,4
+Composer,90,4
+Featured Artist,90,28
+Primary Artist,91,4
+Composer,91,4
+Primary Artist,92,4
+Composer,92,4
+Primary Artist,93,5
+Composer,93,5
+Featured Artist,93,6
+Primary Artist,94,5
+Composer,94,5
+Primary Artist,95,5
+Composer,95,5
+Primary Artist,96,5
+Composer,96,5
+Producer,96,17
+Primary Artist,97,5
+Composer,97,5
+Primary Artist,98,5
+Composer,98,5
+Primary Artist,99,5
+Composer,99,5
+Mixing Engineer,99,46
+Primary Artist,100,5
+Composer,100,5
+Primary Artist,101,5
+Composer,101,5
+Primary Artist,102,5
+Composer,102,5
+Featured Artist,102,18
+Primary Artist,103,5
+Composer,103,5
+Primary Artist,104,5
+Composer,104,5
+Primary Artist,105,5
+Composer,105,5
+Featured Artist,105,45
+Primary Artist,106,5
+Composer,106,5
+Primary Artist,107,5
+Composer,107,5
+Primary Artist,108,5
+Composer,108,5
+Mixing Engineer,108,36
+Primary Artist,109,5
+Composer,109,5
+Primary Artist,110,5
+Composer,110,5
+Primary Artist,111,5
+Composer,111,5
+Featured Artist,111,7
+Primary Artist,112,5
+Composer,112,5
+Primary Artist,113,5
+Composer,113,5
+Primary Artist,114,5
+Composer,114,5
+Mixing Engineer,114,19
+Primary Artist,115,5
+Composer,115,5
+Primary Artist,116,6
+Composer,116,6
+Primary Artist,117,6
+Composer,117,6
+Producer,117,27
+Primary Artist,118,6
+Composer,118,6
+Primary Artist,119,6
+Composer,119,6
+Primary Artist,120,6
+Composer,120,6
+Mixing Engineer,120,28
+Primary Artist,121,6
+Composer,121,6
+Primary Artist,122,6
+Composer,122,6
+Primary Artist,123,6
+Composer,123,6
+Producer,123,31
+Primary Artist,124,6
+Composer,124,6
+Primary Artist,125,6
+Composer,125,6
+Primary Artist,126,6
+Composer,126,6
+Mixing Engineer,126,37
+Primary Artist,127,6
+Composer,127,6
+Primary Artist,128,6
+Composer,128,6
+Primary Artist,129,6
+Composer,129,6
+Featured Artist,129,17
+Primary Artist,130,6
+Composer,130,6
+Primary Artist,131,6
+Composer,131,6
+Primary Artist,132,6
+Composer,132,6
+Producer,132,13
+Primary Artist,133,6
+Composer,133,6
+Primary Artist,134,6
+Composer,134,6
+Primary Artist,135,6
+Composer,135,6
+Mixing Engineer,135,44
+Primary Artist,136,6
+Composer,136,6
+Primary Artist,137,6
+Composer,137,6
+Primary Artist,138,6
+Composer,138,6
+Featured Artist,138,8
+Primary Artist,139,7
+Composer,139,7
+Primary Artist,140,7
+Composer,140,7
+Primary Artist,141,7
+Composer,141,7
+Producer,141,38
+Primary Artist,142,7
+Composer,142,7
+Primary Artist,143,7
+Composer,143,7
+Primary Artist,144,7
+Composer,144,7
+Featured Artist,144,22
+Primary Artist,145,7
+Composer,145,7
+Primary Artist,146,7
+Composer,146,7
+Primary Artist,147,7
+Composer,147,7
+Producer,147,40
+Primary Artist,148,7
+Composer,148,7
+Primary Artist,149,7
+Composer,149,7
+Primary Artist,150,7
+Composer,150,7
+Featured Artist,150,40
+Primary Artist,151,7
+Composer,151,7
+Primary Artist,152,7
+Composer,152,7
+Primary Artist,153,7
+Composer,153,7
+Featured Artist,153,37
+Primary Artist,154,7
+Composer,154,7
+Primary Artist,155,7
+Composer,155,7
+Primary Artist,156,7
+Composer,156,7
+Mixing Engineer,156,20
+Primary Artist,157,7
+Composer,157,7
+Primary Artist,158,7
+Composer,158,7
+Primary Artist,159,7
+Composer,159,7
+Producer,159,2
+Primary Artist,160,7
+Composer,160,7
+Primary Artist,161,7
+Composer,161,7
+Primary Artist,162,8
+Composer,162,8
+Producer,162,11
+Primary Artist,163,8
+Composer,163,8
+Primary Artist,164,8
+Composer,164,8
+Primary Artist,165,8
+Composer,165,8
+Producer,165,31
+Primary Artist,166,8
+Composer,166,8
+Primary Artist,167,8
+Composer,167,8
+Primary Artist,168,8
+Composer,168,8
+Producer,168,41
+Primary Artist,169,8
+Composer,169,8
+Primary Artist,170,8
+Composer,170,8
+Primary Artist,171,8
+Composer,171,8
+Featured Artist,171,45
+Primary Artist,172,8
+Composer,172,8
+Primary Artist,173,8
+Composer,173,8
+Primary Artist,174,8
+Composer,174,8
+Mixing Engineer,174,21
+Primary Artist,175,8
+Composer,175,8
+Primary Artist,176,8
+Composer,176,8
+Primary Artist,177,8
+Composer,177,8
+Producer,177,20
+Primary Artist,178,8
+Composer,178,8
+Primary Artist,179,8
+Composer,179,8
+Primary Artist,180,8
+Composer,180,8
+Featured Artist,180,33
+Primary Artist,181,8
+Composer,181,8
+Primary Artist,182,8
+Composer,182,8
+Primary Artist,183,8
+Composer,183,8
+Producer,183,43
+Primary Artist,184,8
+Composer,184,8
+Primary Artist,185,9
+Composer,185,9
+Primary Artist,186,9
+Composer,186,9
+Producer,186,3
+Primary Artist,187,9
+Composer,187,9
+Primary Artist,188,9
+Composer,188,9
+Primary Artist,189,9
+Composer,189,9
+Featured Artist,189,21
+Primary Artist,190,9
+Composer,190,9
+Primary Artist,191,9
+Composer,191,9
+Primary Artist,192,9
+Composer,192,9
+Featured Artist,192,2
+Primary Artist,193,9
+Composer,193,9
+Primary Artist,194,9
+Composer,194,9
+Primary Artist,195,9
+Composer,195,9
+Mixing Engineer,195,43
+Primary Artist,196,9
+Composer,196,9
+Primary Artist,197,9
+Composer,197,9
+Primary Artist,198,9
+Composer,198,9
+Featured Artist,198,11
+Primary Artist,199,9
+Composer,199,9
+Primary Artist,200,9
+Composer,200,9
+Primary Artist,201,9
+Composer,201,9
+Mixing Engineer,201,27
+Primary Artist,202,9
+Composer,202,9
+Primary Artist,203,9
+Composer,203,9
+Primary Artist,204,9
+Composer,204,9
+Featured Artist,204,47
+Primary Artist,205,9
+Composer,205,9
+Primary Artist,206,9
+Composer,206,9
+Primary Artist,207,9
+Composer,207,9
+Featured Artist,207,22
+Primary Artist,208,10
+Composer,208,10
+Primary Artist,209,10
+Composer,209,10
+Primary Artist,210,10
+Composer,210,10
+Producer,210,11
+Primary Artist,211,10
+Composer,211,10
+Primary Artist,212,10
+Composer,212,10
+Primary Artist,213,10
+Composer,213,10
+Mixing Engineer,213,7
+Primary Artist,214,10
+Composer,214,10
+Primary Artist,215,10
+Composer,215,10
+Primary Artist,216,10
+Composer,216,10
+Mixing Engineer,216,13
+Primary Artist,217,10
+Composer,217,10
+Primary Artist,218,10
+Composer,218,10
+Primary Artist,219,10
+Composer,219,10
+Mixing Engineer,219,30
+Primary Artist,220,10
+Composer,220,10
+Primary Artist,221,10
+Composer,221,10
+Primary Artist,222,10
+Composer,222,10
+Mixing Engineer,222,2
+Primary Artist,223,10
+Composer,223,10
+Primary Artist,224,10
+Composer,224,10
+Primary Artist,225,10
+Composer,225,10
+Mixing Engineer,225,34
+Primary Artist,226,10
+Composer,226,10
+Primary Artist,227,10
+Composer,227,10
+Primary Artist,228,10
+Composer,228,10
+Featured Artist,228,17
+Primary Artist,229,10
+Composer,229,10
+Primary Artist,230,10
+Composer,230,10
+Primary Artist,231,11
+Composer,231,11
+Mixing Engineer,231,26
+Primary Artist,232,11
+Composer,232,11
+Primary Artist,233,11
+Composer,233,11
+Primary Artist,234,11
+Composer,234,11
+Producer,234,36
+Primary Artist,235,11
+Composer,235,11
+Primary Artist,236,11
+Composer,236,11
+Primary Artist,237,11
+Composer,237,11
+Featured Artist,237,41
+Primary Artist,238,11
+Composer,238,11
+Primary Artist,239,11
+Composer,239,11
+Primary Artist,240,11
+Composer,240,11
+Producer,240,13
+Primary Artist,241,11
+Composer,241,11
+Primary Artist,242,11
+Composer,242,11
+Primary Artist,243,11
+Composer,243,11
+Producer,243,6
+Primary Artist,244,11
+Composer,244,11
+Primary Artist,245,11
+Composer,245,11
+Primary Artist,246,11
+Composer,246,11
+Featured Artist,246,43
+Primary Artist,247,11
+Composer,247,11
+Primary Artist,248,11
+Composer,248,11
+Primary Artist,249,11
+Composer,249,11
+Featured Artist,249,42
+Primary Artist,250,11
+Composer,250,11
+Primary Artist,251,11
+Composer,251,11
+Primary Artist,252,11
+Composer,252,11
+Producer,252,42
+Primary Artist,253,11
+Composer,253,11
+Primary Artist,254,12
+Composer,254,12
+Primary Artist,255,12
+Composer,255,12
+Producer,255,47
+Primary Artist,256,12
+Composer,256,12
+Primary Artist,257,12
+Composer,257,12
+Primary Artist,258,12
+Composer,258,12
+Mixing Engineer,258,10
+Primary Artist,259,12
+Composer,259,12
+Primary Artist,260,12
+Composer,260,12
+Primary Artist,261,12
+Composer,261,12
+Producer,261,24
+Primary Artist,262,12
+Composer,262,12
+Primary Artist,263,12
+Composer,263,12
+Primary Artist,264,12
+Composer,264,12
+Featured Artist,264,29
+Primary Artist,265,12
+Composer,265,12
+Primary Artist,266,12
+Composer,266,12
+Primary Artist,267,12
+Composer,267,12
+Producer,267,43
+Primary Artist,268,12
+Composer,268,12
+Primary Artist,269,12
+Composer,269,12
+Primary Artist,270,12
+Composer,270,12
+Featured Artist,270,34
+Primary Artist,271,12
+Composer,271,12
+Primary Artist,272,12
+Composer,272,12
+Primary Artist,273,12
+Composer,273,12
+Mixing Engineer,273,21
+Primary Artist,274,12
+Composer,274,12
+Primary Artist,275,12
+Composer,275,12
+Primary Artist,276,12
+Composer,276,12
+Producer,276,4
+Primary Artist,277,13
+Composer,277,13
+Primary Artist,278,13
+Composer,278,13
+Primary Artist,279,13
+Composer,279,13
+Producer,279,44
+Primary Artist,280,13
+Composer,280,13
+Primary Artist,281,13
+Composer,281,13
+Primary Artist,282,13
+Composer,282,13
+Mixing Engineer,282,36
+Primary Artist,283,13
+Composer,283,13
+Primary Artist,284,13
+Composer,284,13
+Primary Artist,285,13
+Composer,285,13
+Featured Artist,285,33
+Primary Artist,286,13
+Composer,286,13
+Primary Artist,287,13
+Composer,287,13
+Primary Artist,288,13
+Composer,288,13
+Mixing Engineer,288,37
+Primary Artist,289,13
+Composer,289,13
+Primary Artist,290,13
+Composer,290,13
+Primary Artist,291,13
+Composer,291,13
+Mixing Engineer,291,29
+Primary Artist,292,13
+Composer,292,13
+Primary Artist,293,13
+Composer,293,13
+Primary Artist,294,13
+Composer,294,13
+Featured Artist,294,33
+Primary Artist,295,13
+Composer,295,13
+Primary Artist,296,13
+Composer,296,13
+Primary Artist,297,13
+Composer,297,13
+Mixing Engineer,297,27
+Primary Artist,298,13
+Composer,298,13
+Primary Artist,299,13
+Composer,299,13
+Primary Artist,300,14
+Composer,300,14
+Mixing Engineer,300,38
+Primary Artist,301,14
+Composer,301,14
+Primary Artist,302,14
+Composer,302,14
+Primary Artist,303,14
+Composer,303,14
+Producer,303,3
+Primary Artist,304,14
+Composer,304,14
+Primary Artist,305,14
+Composer,305,14
+Primary Artist,306,14
+Composer,306,14
+Producer,306,45
+Primary Artist,307,14
+Composer,307,14
+Primary Artist,308,14
+Composer,308,14
+Primary Artist,309,14
+Composer,309,14
+Producer,309,41
+Primary Artist,310,14
+Composer,310,14
+Primary Artist,311,14
+Composer,311,14
+Primary Artist,312,14
+Composer,312,14
+Producer,312,31
+Primary Artist,313,14
+Composer,313,14
+Primary Artist,314,14
+Composer,314,14
+Primary Artist,315,14
+Composer,315,14
+Featured Artist,315,29
+Primary Artist,316,14
+Composer,316,14
+Primary Artist,317,14
+Composer,317,14
+Primary Artist,318,14
+Composer,318,14
+Producer,318,16
+Primary Artist,319,14
+Composer,319,14
+Primary Artist,320,14
+Composer,320,14
+Primary Artist,321,14
+Composer,321,14
+Mixing Engineer,321,7
+Primary Artist,322,14
+Composer,322,14
+Primary Artist,323,15
+Composer,323,15
+Primary Artist,324,15
+Composer,324,15
+Featured Artist,324,39
+Primary Artist,325,15
+Composer,325,15
+Primary Artist,326,15
+Composer,326,15
+Primary Artist,327,15
+Composer,327,15
+Featured Artist,327,28
+Primary Artist,328,15
+Composer,328,15
+Primary Artist,329,15
+Composer,329,15
+Primary Artist,330,15
+Composer,330,15
+Featured Artist,330,13
+Primary Artist,331,15
+Composer,331,15
+Primary Artist,332,15
+Composer,332,15
+Primary Artist,333,15
+Composer,333,15
+Featured Artist,333,4
+Primary Artist,334,15
+Composer,334,15
+Primary Artist,335,15
+Composer,335,15
+Primary Artist,336,15
+Composer,336,15
+Producer,336,14
+Primary Artist,337,15
+Composer,337,15
+Primary Artist,338,15
+Composer,338,15
+Primary Artist,339,15
+Composer,339,15
+Featured Artist,339,3
+Primary Artist,340,15
+Composer,340,15
+Primary Artist,341,15
+Composer,341,15
+Primary Artist,342,15
+Composer,342,15
+Featured Artist,342,5
+Primary Artist,343,15
+Composer,343,15
+Primary Artist,344,15
+Composer,344,15
+Primary Artist,345,15
+Composer,345,15
+Featured Artist,345,47
+Primary Artist,346,16
+Composer,346,16
+Primary Artist,347,16
+Composer,347,16
+Primary Artist,348,16
+Composer,348,16
+Mixing Engineer,348,8
+Primary Artist,349,16
+Composer,349,16
+Primary Artist,350,16
+Composer,350,16
+Primary Artist,351,16
+Composer,351,16
+Producer,351,29
+Primary Artist,352,16
+Composer,352,16
+Primary Artist,353,16
+Composer,353,16
+Primary Artist,354,16
+Composer,354,16
+Mixing Engineer,354,41
+Primary Artist,355,16
+Composer,355,16
+Primary Artist,356,16
+Composer,356,16
+Primary Artist,357,16
+Composer,357,16
+Mixing Engineer,357,24
+Primary Artist,358,16
+Composer,358,16
+Primary Artist,359,16
+Composer,359,16
+Primary Artist,360,16
+Composer,360,16
+Featured Artist,360,34
+Primary Artist,361,16
+Composer,361,16
+Primary Artist,362,16
+Composer,362,16
+Primary Artist,363,16
+Composer,363,16
+Mixing Engineer,363,26
+Primary Artist,364,16
+Composer,364,16
+Primary Artist,365,16
+Composer,365,16
+Primary Artist,366,16
+Composer,366,16
+Producer,366,20
+Primary Artist,367,16
+Composer,367,16
+Primary Artist,368,16
+Composer,368,16
+Primary Artist,369,17
+Composer,369,17
+Mixing Engineer,369,39
+Primary Artist,370,17
+Composer,370,17
+Primary Artist,371,17
+Composer,371,17
+Primary Artist,372,17
+Composer,372,17
+Mixing Engineer,372,12
+Primary Artist,373,17
+Composer,373,17
+Primary Artist,374,17
+Composer,374,17
+Primary Artist,375,17
+Composer,375,17
+Producer,375,13
+Primary Artist,376,17
+Composer,376,17
+Primary Artist,377,17
+Composer,377,17
+Primary Artist,378,17
+Composer,378,17
+Producer,378,3
+Primary Artist,379,17
+Composer,379,17
+Primary Artist,380,17
+Composer,380,17
+Primary Artist,381,17
+Composer,381,17
+Mixing Engineer,381,31
+Primary Artist,382,17
+Composer,382,17
+Primary Artist,383,17
+Composer,383,17
+Primary Artist,384,17
+Composer,384,17
+Producer,384,6
+Primary Artist,385,17
+Composer,385,17
+Primary Artist,386,17
+Composer,386,17
+Primary Artist,387,17
+Composer,387,17
+Featured Artist,387,48
+Primary Artist,388,17
+Composer,388,17
+Primary Artist,389,17
+Composer,389,17
+Primary Artist,390,17
+Composer,390,17
+Producer,390,9
+Primary Artist,391,17
+Composer,391,17
+Primary Artist,392,18
+Composer,392,18
+Primary Artist,393,18
+Composer,393,18
+Mixing Engineer,393,7
+Primary Artist,394,18
+Composer,394,18
+Primary Artist,395,18
+Composer,395,18
+Primary Artist,396,18
+Composer,396,18
+Mixing Engineer,396,46
+Primary Artist,397,18
+Composer,397,18
+Primary Artist,398,18
+Composer,398,18
+Primary Artist,399,18
+Composer,399,18
+Mixing Engineer,399,26
+Primary Artist,400,18
+Composer,400,18
+Primary Artist,401,18
+Composer,401,18
+Primary Artist,402,18
+Composer,402,18
+Producer,402,23
+Primary Artist,403,18
+Composer,403,18
+Primary Artist,404,18
+Composer,404,18
+Primary Artist,405,18
+Composer,405,18
+Producer,405,11
+Primary Artist,406,18
+Composer,406,18
+Primary Artist,407,18
+Composer,407,18
+Primary Artist,408,18
+Composer,408,18
+Mixing Engineer,408,34
+Primary Artist,409,18
+Composer,409,18
+Primary Artist,410,18
+Composer,410,18
+Primary Artist,411,18
+Composer,411,18
+Producer,411,12
+Primary Artist,412,18
+Composer,412,18
+Primary Artist,413,18
+Composer,413,18
+Primary Artist,414,18
+Composer,414,18
+Producer,414,30
+Primary Artist,415,19
+Composer,415,19
+Primary Artist,416,19
+Composer,416,19
+Primary Artist,417,19
+Composer,417,19
+Mixing Engineer,417,17
+Primary Artist,418,19
+Composer,418,19
+Primary Artist,419,19
+Composer,419,19
+Primary Artist,420,19
+Composer,420,19
+Mixing Engineer,420,43
+Primary Artist,421,19
+Composer,421,19
+Primary Artist,422,19
+Composer,422,19
+Primary Artist,423,19
+Composer,423,19
+Mixing Engineer,423,5
+Primary Artist,424,19
+Composer,424,19
+Primary Artist,425,19
+Composer,425,19
+Primary Artist,426,19
+Composer,426,19
+Mixing Engineer,426,29
+Primary Artist,427,19
+Composer,427,19
+Primary Artist,428,19
+Composer,428,19
+Primary Artist,429,19
+Composer,429,19
+Mixing Engineer,429,17
+Primary Artist,430,19
+Composer,430,19
+Primary Artist,431,19
+Composer,431,19
+Primary Artist,432,19
+Composer,432,19
+Producer,432,43
+Primary Artist,433,19
+Composer,433,19
+Primary Artist,434,19
+Composer,434,19
+Primary Artist,435,19
+Composer,435,19
+Producer,435,33
+Primary Artist,436,19
+Composer,436,19
+Primary Artist,437,19
+Composer,437,19
+Primary Artist,438,20
+Composer,438,20
+Producer,438,4
+Primary Artist,439,20
+Composer,439,20
+Primary Artist,440,20
+Composer,440,20
+Primary Artist,441,20
+Composer,441,20
+Mixing Engineer,441,31
+Primary Artist,442,20
+Composer,442,20
+Primary Artist,443,20
+Composer,443,20
+Primary Artist,444,20
+Composer,444,20
+Producer,444,27
+Primary Artist,445,20
+Composer,445,20
+Primary Artist,446,20
+Composer,446,20
+Primary Artist,447,20
+Composer,447,20
+Producer,447,16
+Primary Artist,448,20
+Composer,448,20
+Primary Artist,449,20
+Composer,449,20
+Primary Artist,450,20
+Composer,450,20
+Featured Artist,450,11
+Primary Artist,451,20
+Composer,451,20
+Primary Artist,452,20
+Composer,452,20
+Primary Artist,453,20
+Composer,453,20
+Mixing Engineer,453,40
+Primary Artist,454,20
+Composer,454,20
+Primary Artist,455,20
+Composer,455,20
+Primary Artist,456,20
+Composer,456,20
+Producer,456,5
+Primary Artist,457,20
+Composer,457,20
+Primary Artist,458,20
+Composer,458,20
+Primary Artist,459,20
+Composer,459,20
+Mixing Engineer,459,40
+Primary Artist,460,20
+Composer,460,20
+Primary Artist,461,21
+Composer,461,21
+Primary Artist,462,21
+Composer,462,21
+Featured Artist,462,46
+Primary Artist,463,21
+Composer,463,21
+Primary Artist,464,21
+Composer,464,21
+Primary Artist,465,21
+Composer,465,21
+Featured Artist,465,47
+Primary Artist,466,21
+Composer,466,21
+Primary Artist,467,21
+Composer,467,21
+Primary Artist,468,21
+Composer,468,21
+Mixing Engineer,468,10
+Primary Artist,469,21
+Composer,469,21
+Primary Artist,470,21
+Composer,470,21
+Primary Artist,471,21
+Composer,471,21
+Featured Artist,471,47
+Primary Artist,472,21
+Composer,472,21
+Primary Artist,473,21
+Composer,473,21
+Primary Artist,474,21
+Composer,474,21
+Mixing Engineer,474,31
+Primary Artist,475,21
+Composer,475,21
+Primary Artist,476,21
+Composer,476,21
+Primary Artist,477,21
+Composer,477,21
+Mixing Engineer,477,47
+Primary Artist,478,21
+Composer,478,21
+Primary Artist,479,21
+Composer,479,21
+Primary Artist,480,21
+Composer,480,21
+Featured Artist,480,7
+Primary Artist,481,21
+Composer,481,21
+Primary Artist,482,21
+Composer,482,21
+Primary Artist,483,21
+Composer,483,21
+Featured Artist,483,15
+Primary Artist,484,22
+Composer,484,22
+Primary Artist,485,22
+Composer,485,22
+Primary Artist,486,22
+Composer,486,22
+Mixing Engineer,486,10
+Primary Artist,487,22
+Composer,487,22
+Primary Artist,488,22
+Composer,488,22
+Primary Artist,489,22
+Composer,489,22
+Mixing Engineer,489,11
+Primary Artist,490,22
+Composer,490,22
+Primary Artist,491,22
+Composer,491,22
+Primary Artist,492,22
+Composer,492,22
+Featured Artist,492,41
+Primary Artist,493,22
+Composer,493,22
+Primary Artist,494,22
+Composer,494,22
+Primary Artist,495,22
+Composer,495,22
+Producer,495,42
+Primary Artist,496,22
+Composer,496,22
+Primary Artist,497,22
+Composer,497,22
+Primary Artist,498,22
+Composer,498,22
+Featured Artist,498,39
+Primary Artist,499,22
+Composer,499,22
+Primary Artist,500,22
+Composer,500,22
+Primary Artist,501,22
+Composer,501,22
+Producer,501,16
+Primary Artist,502,22
+Composer,502,22
+Primary Artist,503,22
+Composer,503,22
+Primary Artist,504,22
+Composer,504,22
+Featured Artist,504,27
+Primary Artist,505,22
+Composer,505,22
+Primary Artist,506,22
+Composer,506,22
+Primary Artist,507,23
+Composer,507,23
+Mixing Engineer,507,1
+Primary Artist,508,23
+Composer,508,23
+Primary Artist,509,23
+Composer,509,23
+Primary Artist,510,23
+Composer,510,23
+Producer,510,10
+Primary Artist,511,23
+Composer,511,23
+Primary Artist,512,23
+Composer,512,23
+Primary Artist,513,23
+Composer,513,23
+Mixing Engineer,513,31
+Primary Artist,514,23
+Composer,514,23
+Primary Artist,515,23
+Composer,515,23
+Primary Artist,516,23
+Composer,516,23
+Mixing Engineer,516,44
+Primary Artist,517,23
+Composer,517,23
+Primary Artist,518,23
+Composer,518,23
+Primary Artist,519,23
+Composer,519,23
+Producer,519,10
+Primary Artist,520,23
+Composer,520,23
+Primary Artist,521,23
+Composer,521,23
+Primary Artist,522,23
+Composer,522,23
+Producer,522,34
+Primary Artist,523,23
+Composer,523,23
+Primary Artist,524,23
+Composer,524,23
+Primary Artist,525,23
+Composer,525,23
+Featured Artist,525,43
+Primary Artist,526,23
+Composer,526,23
+Primary Artist,527,23
+Composer,527,23
+Primary Artist,528,23
+Composer,528,23
+Featured Artist,528,17
+Primary Artist,529,23
+Composer,529,23
+Primary Artist,530,24
+Composer,530,24
+Primary Artist,531,24
+Composer,531,24
+Producer,531,27
+Primary Artist,532,24
+Composer,532,24
+Primary Artist,533,24
+Composer,533,24
+Primary Artist,534,24
+Composer,534,24
+Producer,534,48
+Primary Artist,535,24
+Composer,535,24
+Primary Artist,536,24
+Composer,536,24
+Primary Artist,537,24
+Composer,537,24
+Producer,537,22
+Primary Artist,538,24
+Composer,538,24
+Primary Artist,539,24
+Composer,539,24
+Primary Artist,540,24
+Composer,540,24
+Producer,540,31
+Primary Artist,541,24
+Composer,541,24
+Primary Artist,542,24
+Composer,542,24
+Primary Artist,543,24
+Composer,543,24
+Mixing Engineer,543,35
+Primary Artist,544,24
+Composer,544,24
+Primary Artist,545,24
+Composer,545,24
+Primary Artist,546,24
+Composer,546,24
+Producer,546,42
+Primary Artist,547,24
+Composer,547,24
+Primary Artist,548,24
+Composer,548,24
+Primary Artist,549,24
+Composer,549,24
+Mixing Engineer,549,19
+Primary Artist,550,24
+Composer,550,24
+Primary Artist,551,24
+Composer,551,24
+Primary Artist,552,24
+Composer,552,24
+Producer,552,30
+Primary Artist,553,25
+Composer,553,25
+Primary Artist,554,25
+Composer,554,25
+Primary Artist,555,25
+Composer,555,25
+Mixing Engineer,555,14
+Primary Artist,556,25
+Composer,556,25
+Primary Artist,557,25
+Composer,557,25
+Primary Artist,558,25
+Composer,558,25
+Mixing Engineer,558,33
+Primary Artist,559,25
+Composer,559,25
+Primary Artist,560,25
+Composer,560,25
+Primary Artist,561,25
+Composer,561,25
+Producer,561,42
+Primary Artist,562,25
+Composer,562,25
+Primary Artist,563,25
+Composer,563,25
+Primary Artist,564,25
+Composer,564,25
+Featured Artist,564,30
+Primary Artist,565,25
+Composer,565,25
+Primary Artist,566,25
+Composer,566,25
+Primary Artist,567,25
+Composer,567,25
+Featured Artist,567,34
+Primary Artist,568,25
+Composer,568,25
+Primary Artist,569,25
+Composer,569,25
+Primary Artist,570,25
+Composer,570,25
+Featured Artist,570,17
+Primary Artist,571,25
+Composer,571,25
+Primary Artist,572,25
+Composer,572,25
+Primary Artist,573,25
+Composer,573,25
+Featured Artist,573,4
+Primary Artist,574,25
+Composer,574,25
+Primary Artist,575,25
+Composer,575,25
+Primary Artist,576,26
+Composer,576,26
+Producer,576,44
+Primary Artist,577,26
+Composer,577,26
+Primary Artist,578,26
+Composer,578,26
+Primary Artist,579,26
+Composer,579,26
+Featured Artist,579,25
+Primary Artist,580,26
+Composer,580,26
+Primary Artist,581,26
+Composer,581,26
+Primary Artist,582,26
+Composer,582,26
+Mixing Engineer,582,16
+Primary Artist,583,26
+Composer,583,26
+Primary Artist,584,26
+Composer,584,26
+Primary Artist,585,26
+Composer,585,26
+Featured Artist,585,9
+Primary Artist,586,26
+Composer,586,26
+Primary Artist,587,26
+Composer,587,26
+Primary Artist,588,26
+Composer,588,26
+Featured Artist,588,14
+Primary Artist,589,26
+Composer,589,26
+Primary Artist,590,26
+Composer,590,26
+Primary Artist,591,26
+Composer,591,26
+Featured Artist,591,23
+Primary Artist,592,26
+Composer,592,26
+Primary Artist,593,26
+Composer,593,26
+Primary Artist,594,26
+Composer,594,26
+Mixing Engineer,594,32
+Primary Artist,595,26
+Composer,595,26
+Primary Artist,596,26
+Composer,596,26
+Primary Artist,597,26
+Composer,597,26
+Producer,597,24
+Primary Artist,598,26
+Composer,598,26
+Primary Artist,599,27
+Composer,599,27
+Primary Artist,600,27
+Composer,600,27
+Producer,600,11
+Primary Artist,601,27
+Composer,601,27
+Primary Artist,602,27
+Composer,602,27
+Primary Artist,603,27
+Composer,603,27
+Producer,603,6
+Primary Artist,604,27
+Composer,604,27
+Primary Artist,605,27
+Composer,605,27
+Primary Artist,606,27
+Composer,606,27
+Mixing Engineer,606,34
+Primary Artist,607,27
+Composer,607,27
+Primary Artist,608,27
+Composer,608,27
+Primary Artist,609,27
+Composer,609,27
+Producer,609,25
+Primary Artist,610,27
+Composer,610,27
+Primary Artist,611,27
+Composer,611,27
+Primary Artist,612,27
+Composer,612,27
+Featured Artist,612,13
+Primary Artist,613,27
+Composer,613,27
+Primary Artist,614,27
+Composer,614,27
+Primary Artist,615,27
+Composer,615,27
+Mixing Engineer,615,28
+Primary Artist,616,27
+Composer,616,27
+Primary Artist,617,27
+Composer,617,27
+Primary Artist,618,27
+Composer,618,27
+Producer,618,37
+Primary Artist,619,27
+Composer,619,27
+Primary Artist,620,27
+Composer,620,27
+Primary Artist,621,27
+Composer,621,27
+Mixing Engineer,621,19
+Primary Artist,622,28
+Composer,622,28
+Primary Artist,623,28
+Composer,623,28
+Primary Artist,624,28
+Composer,624,28
+Featured Artist,624,21
+Primary Artist,625,28
+Composer,625,28
+Primary Artist,626,28
+Composer,626,28
+Primary Artist,627,28
+Composer,627,28
+Mixing Engineer,627,7
+Primary Artist,628,28
+Composer,628,28
+Primary Artist,629,28
+Composer,629,28
+Primary Artist,630,28
+Composer,630,28
+Featured Artist,630,25
+Primary Artist,631,28
+Composer,631,28
+Primary Artist,632,28
+Composer,632,28
+Primary Artist,633,28
+Composer,633,28
+Mixing Engineer,633,13
+Primary Artist,634,28
+Composer,634,28
+Primary Artist,635,28
+Composer,635,28
+Primary Artist,636,28
+Composer,636,28
+Mixing Engineer,636,7
+Primary Artist,637,28
+Composer,637,28
+Primary Artist,638,28
+Composer,638,28
+Primary Artist,639,28
+Composer,639,28
+Featured Artist,639,11
+Primary Artist,640,28
+Composer,640,28
+Primary Artist,641,28
+Composer,641,28
+Primary Artist,642,28
+Composer,642,28
+Mixing Engineer,642,22
+Primary Artist,643,28
+Composer,643,28
+Primary Artist,644,28
+Composer,644,28
+Primary Artist,645,29
+Composer,645,29
+Featured Artist,645,41
+Primary Artist,646,29
+Composer,646,29
+Primary Artist,647,29
+Composer,647,29
+Primary Artist,648,29
+Composer,648,29
+Producer,648,39
+Primary Artist,649,29
+Composer,649,29
+Primary Artist,650,29
+Composer,650,29
+Primary Artist,651,29
+Composer,651,29
+Producer,651,31
+Primary Artist,652,29
+Composer,652,29
+Primary Artist,653,29
+Composer,653,29
+Primary Artist,654,29
+Composer,654,29
+Producer,654,35
+Primary Artist,655,29
+Composer,655,29
+Primary Artist,656,29
+Composer,656,29
+Primary Artist,657,29
+Composer,657,29
+Featured Artist,657,14
+Primary Artist,658,29
+Composer,658,29
+Primary Artist,659,29
+Composer,659,29
+Primary Artist,660,29
+Composer,660,29
+Producer,660,22
+Primary Artist,661,29
+Composer,661,29
+Primary Artist,662,29
+Composer,662,29
+Primary Artist,663,29
+Composer,663,29
+Producer,663,35
+Primary Artist,664,29
+Composer,664,29
+Primary Artist,665,29
+Composer,665,29
+Primary Artist,666,29
+Composer,666,29
+Featured Artist,666,4
+Primary Artist,667,29
+Composer,667,29
+Primary Artist,668,30
+Composer,668,30
+Primary Artist,669,30
+Composer,669,30
+Featured Artist,669,47
+Primary Artist,670,30
+Composer,670,30
+Primary Artist,671,30
+Composer,671,30
+Primary Artist,672,30
+Composer,672,30
+Producer,672,10
+Primary Artist,673,30
+Composer,673,30
+Primary Artist,674,30
+Composer,674,30
+Primary Artist,675,30
+Composer,675,30
+Producer,675,10
+Primary Artist,676,30
+Composer,676,30
+Primary Artist,677,30
+Composer,677,30
+Primary Artist,678,30
+Composer,678,30
+Featured Artist,678,25
+Primary Artist,679,30
+Composer,679,30
+Primary Artist,680,30
+Composer,680,30
+Primary Artist,681,30
+Composer,681,30
+Mixing Engineer,681,28
+Primary Artist,682,30
+Composer,682,30
+Primary Artist,683,30
+Composer,683,30
+Primary Artist,684,30
+Composer,684,30
+Mixing Engineer,684,20
+Primary Artist,685,30
+Composer,685,30
+Primary Artist,686,30
+Composer,686,30
+Primary Artist,687,30
+Composer,687,30
+Producer,687,14
+Primary Artist,688,30
+Composer,688,30
+Primary Artist,689,30
+Composer,689,30
+Primary Artist,690,30
+Composer,690,30
+Featured Artist,690,27
+Primary Artist,691,31
+Composer,691,31
+Primary Artist,692,31
+Composer,692,31
+Primary Artist,693,31
+Composer,693,31
+Featured Artist,693,32
+Primary Artist,694,31
+Composer,694,31
+Primary Artist,695,31
+Composer,695,31
+Primary Artist,696,31
+Composer,696,31
+Producer,696,17
+Primary Artist,697,31
+Composer,697,31
+Primary Artist,698,31
+Composer,698,31
+Primary Artist,699,31
+Composer,699,31
+Mixing Engineer,699,7
+Primary Artist,700,31
+Composer,700,31
+Primary Artist,701,31
+Composer,701,31
+Primary Artist,702,31
+Composer,702,31
+Mixing Engineer,702,40
+Primary Artist,703,31
+Composer,703,31
+Primary Artist,704,31
+Composer,704,31
+Primary Artist,705,31
+Composer,705,31
+Featured Artist,705,33
+Primary Artist,706,31
+Composer,706,31
+Primary Artist,707,31
+Composer,707,31
+Primary Artist,708,31
+Composer,708,31
+Featured Artist,708,28
+Primary Artist,709,31
+Composer,709,31
+Primary Artist,710,31
+Composer,710,31
+Primary Artist,711,31
+Composer,711,31
+Mixing Engineer,711,39
+Primary Artist,712,31
+Composer,712,31
+Primary Artist,713,31
+Composer,713,31
+Primary Artist,714,32
+Composer,714,32
+Featured Artist,714,2
+Primary Artist,715,32
+Composer,715,32
+Primary Artist,716,32
+Composer,716,32
+Primary Artist,717,32
+Composer,717,32
+Featured Artist,717,47
+Primary Artist,718,32
+Composer,718,32
+Primary Artist,719,32
+Composer,719,32
+Primary Artist,720,32
+Composer,720,32
+Featured Artist,720,44
+Primary Artist,721,32
+Composer,721,32
+Primary Artist,722,32
+Composer,722,32
+Primary Artist,723,32
+Composer,723,32
+Mixing Engineer,723,41
+Primary Artist,724,32
+Composer,724,32
+Primary Artist,725,32
+Composer,725,32
+Primary Artist,726,32
+Composer,726,32
+Producer,726,27
+Primary Artist,727,32
+Composer,727,32
+Primary Artist,728,32
+Composer,728,32
+Primary Artist,729,32
+Composer,729,32
+Mixing Engineer,729,27
+Primary Artist,730,32
+Composer,730,32
+Primary Artist,731,32
+Composer,731,32
+Primary Artist,732,32
+Composer,732,32
+Mixing Engineer,732,17
+Primary Artist,733,32
+Composer,733,32
+Primary Artist,734,32
+Composer,734,32
+Primary Artist,735,32
+Composer,735,32
+Mixing Engineer,735,39
+Primary Artist,736,32
+Composer,736,32
+Primary Artist,737,33
+Composer,737,33
+Primary Artist,738,33
+Composer,738,33
+Producer,738,28
+Primary Artist,739,33
+Composer,739,33
+Primary Artist,740,33
+Composer,740,33
+Primary Artist,741,33
+Composer,741,33
+Featured Artist,741,37
+Primary Artist,742,33
+Composer,742,33
+Primary Artist,743,33
+Composer,743,33
+Primary Artist,744,33
+Composer,744,33
+Featured Artist,744,23
+Primary Artist,745,33
+Composer,745,33
+Primary Artist,746,33
+Composer,746,33
+Primary Artist,747,33
+Composer,747,33
+Mixing Engineer,747,44
+Primary Artist,748,33
+Composer,748,33
+Primary Artist,749,33
+Composer,749,33
+Primary Artist,750,33
+Composer,750,33
+Mixing Engineer,750,5
+Primary Artist,751,33
+Composer,751,33
+Primary Artist,752,33
+Composer,752,33
+Primary Artist,753,33
+Composer,753,33
+Featured Artist,753,44
+Primary Artist,754,33
+Composer,754,33
+Primary Artist,755,33
+Composer,755,33
+Primary Artist,756,33
+Composer,756,33
+Featured Artist,756,31
+Primary Artist,757,33
+Composer,757,33
+Primary Artist,758,33
+Composer,758,33
+Primary Artist,759,33
+Composer,759,33
+Mixing Engineer,759,41
+Primary Artist,760,34
+Composer,760,34
+Primary Artist,761,34
+Composer,761,34
+Primary Artist,762,34
+Composer,762,34
+Featured Artist,762,4
+Primary Artist,763,34
+Composer,763,34
+Primary Artist,764,34
+Composer,764,34
+Primary Artist,765,34
+Composer,765,34
+Featured Artist,765,24
+Primary Artist,766,34
+Composer,766,34
+Primary Artist,767,34
+Composer,767,34
+Primary Artist,768,34
+Composer,768,34
+Producer,768,17
+Primary Artist,769,34
+Composer,769,34
+Primary Artist,770,34
+Composer,770,34
+Primary Artist,771,34
+Composer,771,34
+Producer,771,28
+Primary Artist,772,34
+Composer,772,34
+Primary Artist,773,34
+Composer,773,34
+Primary Artist,774,34
+Composer,774,34
+Featured Artist,774,7
+Primary Artist,775,34
+Composer,775,34
+Primary Artist,776,34
+Composer,776,34
+Primary Artist,777,34
+Composer,777,34
+Mixing Engineer,777,13
+Primary Artist,778,34
+Composer,778,34
+Primary Artist,779,34
+Composer,779,34
+Primary Artist,780,34
+Composer,780,34
+Producer,780,3
+Primary Artist,781,34
+Composer,781,34
+Primary Artist,782,34
+Composer,782,34
+Primary Artist,783,35
+Composer,783,35
+Mixing Engineer,783,38
+Primary Artist,784,35
+Composer,784,35
+Primary Artist,785,35
+Composer,785,35
+Primary Artist,786,35
+Composer,786,35
+Producer,786,9
+Primary Artist,787,35
+Composer,787,35
+Primary Artist,788,35
+Composer,788,35
+Primary Artist,789,35
+Composer,789,35
+Featured Artist,789,46
+Primary Artist,790,35
+Composer,790,35
+Primary Artist,791,35
+Composer,791,35
+Primary Artist,792,35
+Composer,792,35
+Producer,792,44
+Primary Artist,793,35
+Composer,793,35
+Primary Artist,794,35
+Composer,794,35
+Primary Artist,795,35
+Composer,795,35
+Mixing Engineer,795,19
+Primary Artist,796,35
+Composer,796,35
+Primary Artist,797,35
+Composer,797,35
+Primary Artist,798,35
+Composer,798,35
+Mixing Engineer,798,39
+Primary Artist,799,35
+Composer,799,35
+Primary Artist,800,35
+Composer,800,35
+Primary Artist,801,35
+Composer,801,35
+Mixing Engineer,801,17
+Primary Artist,802,35
+Composer,802,35
+Primary Artist,803,35
+Composer,803,35
+Primary Artist,804,35
+Composer,804,35
+Mixing Engineer,804,2
+Primary Artist,805,35
+Composer,805,35
+Primary Artist,806,36
+Composer,806,36
+Primary Artist,807,36
+Composer,807,36
+Mixing Engineer,807,37
+Primary Artist,808,36
+Composer,808,36
+Primary Artist,809,36
+Composer,809,36
+Primary Artist,810,36
+Composer,810,36
+Mixing Engineer,810,6
+Primary Artist,811,36
+Composer,811,36
+Primary Artist,812,36
+Composer,812,36
+Primary Artist,813,36
+Composer,813,36
+Producer,813,23
+Primary Artist,814,36
+Composer,814,36
+Primary Artist,815,36
+Composer,815,36
+Primary Artist,816,36
+Composer,816,36
+Mixing Engineer,816,16
+Primary Artist,817,36
+Composer,817,36
+Primary Artist,818,36
+Composer,818,36
+Primary Artist,819,36
+Composer,819,36
+Producer,819,34
+Primary Artist,820,36
+Composer,820,36
+Primary Artist,821,36
+Composer,821,36
+Primary Artist,822,36
+Composer,822,36
+Producer,822,11
+Primary Artist,823,36
+Composer,823,36
+Primary Artist,824,36
+Composer,824,36
+Primary Artist,825,36
+Composer,825,36
+Mixing Engineer,825,27
+Primary Artist,826,36
+Composer,826,36
+Primary Artist,827,36
+Composer,827,36
+Primary Artist,828,36
+Composer,828,36
+Mixing Engineer,828,30
+Primary Artist,829,37
+Composer,829,37
+Primary Artist,830,37
+Composer,830,37
+Primary Artist,831,37
+Composer,831,37
+Mixing Engineer,831,41
+Primary Artist,832,37
+Composer,832,37
+Primary Artist,833,37
+Composer,833,37
+Primary Artist,834,37
+Composer,834,37
+Producer,834,3
+Primary Artist,835,37
+Composer,835,37
+Primary Artist,836,37
+Composer,836,37
+Primary Artist,837,37
+Composer,837,37
+Producer,837,6
+Primary Artist,838,37
+Composer,838,37
+Primary Artist,839,37
+Composer,839,37
+Primary Artist,840,37
+Composer,840,37
+Featured Artist,840,10
+Primary Artist,841,37
+Composer,841,37
+Primary Artist,842,37
+Composer,842,37
+Primary Artist,843,37
+Composer,843,37
+Mixing Engineer,843,5
+Primary Artist,844,37
+Composer,844,37
+Primary Artist,845,37
+Composer,845,37
+Primary Artist,846,37
+Composer,846,37
+Producer,846,25
+Primary Artist,847,37
+Composer,847,37
+Primary Artist,848,37
+Composer,848,37
+Primary Artist,849,37
+Composer,849,37
+Mixing Engineer,849,22
+Primary Artist,850,37
+Composer,850,37
+Primary Artist,851,37
+Composer,851,37
+Primary Artist,852,38
+Composer,852,38
+Mixing Engineer,852,9
+Primary Artist,853,38
+Composer,853,38
+Primary Artist,854,38
+Composer,854,38
+Primary Artist,855,38
+Composer,855,38
+Mixing Engineer,855,34
+Primary Artist,856,38
+Composer,856,38
+Primary Artist,857,38
+Composer,857,38
+Primary Artist,858,38
+Composer,858,38
+Producer,858,24
+Primary Artist,859,38
+Composer,859,38
+Primary Artist,860,38
+Composer,860,38
+Primary Artist,861,38
+Composer,861,38
+Producer,861,35
+Primary Artist,862,38
+Composer,862,38
+Primary Artist,863,38
+Composer,863,38
+Primary Artist,864,38
+Composer,864,38
+Featured Artist,864,30
+Primary Artist,865,38
+Composer,865,38
+Primary Artist,866,38
+Composer,866,38
+Primary Artist,867,38
+Composer,867,38
+Mixing Engineer,867,37
+Primary Artist,868,38
+Composer,868,38
+Primary Artist,869,38
+Composer,869,38
+Primary Artist,870,38
+Composer,870,38
+Producer,870,20
+Primary Artist,871,38
+Composer,871,38
+Primary Artist,872,38
+Composer,872,38
+Primary Artist,873,38
+Composer,873,38
+Featured Artist,873,22
+Primary Artist,874,38
+Composer,874,38
+Primary Artist,875,39
+Composer,875,39
+Primary Artist,876,39
+Composer,876,39
+Mixing Engineer,876,21
+Primary Artist,877,39
+Composer,877,39
+Primary Artist,878,39
+Composer,878,39
+Primary Artist,879,39
+Composer,879,39
+Featured Artist,879,41
+Primary Artist,880,39
+Composer,880,39
+Primary Artist,881,39
+Composer,881,39
+Primary Artist,882,39
+Composer,882,39
+Mixing Engineer,882,40
+Primary Artist,883,39
+Composer,883,39
+Primary Artist,884,39
+Composer,884,39
+Primary Artist,885,39
+Composer,885,39
+Mixing Engineer,885,45
+Primary Artist,886,39
+Composer,886,39
+Primary Artist,887,39
+Composer,887,39
+Primary Artist,888,39
+Composer,888,39
+Featured Artist,888,18
+Primary Artist,889,39
+Composer,889,39
+Primary Artist,890,39
+Composer,890,39
+Primary Artist,891,39
+Composer,891,39
+Featured Artist,891,15
+Primary Artist,892,39
+Composer,892,39
+Primary Artist,893,39
+Composer,893,39
+Primary Artist,894,39
+Composer,894,39
+Mixing Engineer,894,30
+Primary Artist,895,39
+Composer,895,39
+Primary Artist,896,39
+Composer,896,39
+Primary Artist,897,39
+Composer,897,39
+Producer,897,5
+Primary Artist,898,40
+Composer,898,40
+Primary Artist,899,40
+Composer,899,40
+Primary Artist,900,40
+Composer,900,40
+Mixing Engineer,900,20
+Primary Artist,901,40
+Composer,901,40
+Primary Artist,902,40
+Composer,902,40
+Primary Artist,903,40
+Composer,903,40
+Producer,903,35
+Primary Artist,904,40
+Composer,904,40
+Primary Artist,905,40
+Composer,905,40
+Primary Artist,906,40
+Composer,906,40
+Mixing Engineer,906,4
+Primary Artist,907,40
+Composer,907,40
+Primary Artist,908,40
+Composer,908,40
+Primary Artist,909,40
+Composer,909,40
+Featured Artist,909,34
+Primary Artist,910,40
+Composer,910,40
+Primary Artist,911,40
+Composer,911,40
+Primary Artist,912,40
+Composer,912,40
+Featured Artist,912,26
+Primary Artist,913,40
+Composer,913,40
+Primary Artist,914,40
+Composer,914,40
+Primary Artist,915,40
+Composer,915,40
+Featured Artist,915,20
+Primary Artist,916,40
+Composer,916,40
+Primary Artist,917,40
+Composer,917,40
+Primary Artist,918,40
+Composer,918,40
+Mixing Engineer,918,19
+Primary Artist,919,40
+Composer,919,40
+Primary Artist,920,40
+Composer,920,40
+Primary Artist,921,41
+Composer,921,41
+Featured Artist,921,24
+Primary Artist,922,41
+Composer,922,41
+Primary Artist,923,41
+Composer,923,41
+Primary Artist,924,41
+Composer,924,41
+Mixing Engineer,924,39
+Primary Artist,925,41
+Composer,925,41
+Primary Artist,926,41
+Composer,926,41
+Primary Artist,927,41
+Composer,927,41
+Featured Artist,927,25
+Primary Artist,928,41
+Composer,928,41
+Primary Artist,929,41
+Composer,929,41
+Primary Artist,930,41
+Composer,930,41
+Producer,930,29
+Primary Artist,931,41
+Composer,931,41
+Primary Artist,932,41
+Composer,932,41
+Primary Artist,933,41
+Composer,933,41
+Mixing Engineer,933,35
+Primary Artist,934,41
+Composer,934,41
+Primary Artist,935,41
+Composer,935,41
+Primary Artist,936,41
+Composer,936,41
+Featured Artist,936,13
+Primary Artist,937,41
+Composer,937,41
+Primary Artist,938,41
+Composer,938,41
+Primary Artist,939,41
+Composer,939,41
+Producer,939,26
+Primary Artist,940,41
+Composer,940,41
+Primary Artist,941,41
+Composer,941,41
+Primary Artist,942,41
+Composer,942,41
+Featured Artist,942,4
+Primary Artist,943,41
+Composer,943,41
+Primary Artist,944,42
+Composer,944,42
+Primary Artist,945,42
+Composer,945,42
+Producer,945,16
+Primary Artist,946,42
+Composer,946,42
+Primary Artist,947,42
+Composer,947,42
+Primary Artist,948,42
+Composer,948,42
+Producer,948,37
+Primary Artist,949,42
+Composer,949,42
+Primary Artist,950,42
+Composer,950,42
+Primary Artist,951,42
+Composer,951,42
+Producer,951,47
+Primary Artist,952,42
+Composer,952,42
+Primary Artist,953,42
+Composer,953,42
+Primary Artist,954,42
+Composer,954,42
+Mixing Engineer,954,18
+Primary Artist,955,42
+Composer,955,42
+Primary Artist,956,42
+Composer,956,42
+Primary Artist,957,42
+Composer,957,42
+Featured Artist,957,48
+Primary Artist,958,42
+Composer,958,42
+Primary Artist,959,42
+Composer,959,42
+Primary Artist,960,42
+Composer,960,42
+Mixing Engineer,960,28
+Primary Artist,961,42
+Composer,961,42
+Primary Artist,962,42
+Composer,962,42
+Primary Artist,963,42
+Composer,963,42
+Mixing Engineer,963,27
+Primary Artist,964,42
+Composer,964,42
+Primary Artist,965,42
+Composer,965,42
+Primary Artist,966,42
+Composer,966,42
+Mixing Engineer,966,41
+Primary Artist,967,43
+Composer,967,43
+Primary Artist,968,43
+Composer,968,43
+Primary Artist,969,43
+Composer,969,43
+Featured Artist,969,23
+Primary Artist,970,43
+Composer,970,43
+Primary Artist,971,43
+Composer,971,43
+Primary Artist,972,43
+Composer,972,43
+Mixing Engineer,972,8
+Primary Artist,973,43
+Composer,973,43
+Primary Artist,974,43
+Composer,974,43
+Primary Artist,975,43
+Composer,975,43
+Featured Artist,975,18
+Primary Artist,976,43
+Composer,976,43
+Primary Artist,977,43
+Composer,977,43
+Primary Artist,978,43
+Composer,978,43
+Producer,978,14
+Primary Artist,979,43
+Composer,979,43
+Primary Artist,980,43
+Composer,980,43
+Primary Artist,981,43
+Composer,981,43
+Mixing Engineer,981,1
+Primary Artist,982,43
+Composer,982,43
+Primary Artist,983,43
+Composer,983,43
+Primary Artist,984,43
+Composer,984,43
+Featured Artist,984,29
+Primary Artist,985,43
+Composer,985,43
+Primary Artist,986,43
+Composer,986,43
+Primary Artist,987,43
+Composer,987,43
+Producer,987,33
+Primary Artist,988,43
+Composer,988,43
+Primary Artist,989,43
+Composer,989,43
+Primary Artist,990,44
+Composer,990,44
+Producer,990,45
+Primary Artist,991,44
+Composer,991,44
+Primary Artist,992,44
+Composer,992,44
+Primary Artist,993,44
+Composer,993,44
+Mixing Engineer,993,19
+Primary Artist,994,44
+Composer,994,44
+Primary Artist,995,44
+Composer,995,44
+Primary Artist,996,44
+Composer,996,44
+Producer,996,25
+Primary Artist,997,44
+Composer,997,44
+Primary Artist,998,44
+Composer,998,44
+Primary Artist,999,44
+Composer,999,44
+Mixing Engineer,999,36
+Primary Artist,1000,44
+Composer,1000,44
+Primary Artist,1001,44
+Composer,1001,44
+Primary Artist,1002,44
+Composer,1002,44
+Producer,1002,22
+Primary Artist,1003,44
+Composer,1003,44
+Primary Artist,1004,44
+Composer,1004,44
+Primary Artist,1005,44
+Composer,1005,44
+Producer,1005,5
+Primary Artist,1006,44
+Composer,1006,44
+Primary Artist,1007,44
+Composer,1007,44
+Primary Artist,1008,44
+Composer,1008,44
+Featured Artist,1008,10
+Primary Artist,1009,44
+Composer,1009,44
+Primary Artist,1010,44
+Composer,1010,44
+Primary Artist,1011,44
+Composer,1011,44
+Featured Artist,1011,47
+Primary Artist,1012,44
+Composer,1012,44
+Primary Artist,1013,45
+Composer,1013,45
+Primary Artist,1014,45
+Composer,1014,45
+Mixing Engineer,1014,21
+Primary Artist,1015,45
+Composer,1015,45
+Primary Artist,1016,45
+Composer,1016,45
+Primary Artist,1017,45
+Composer,1017,45
+Featured Artist,1017,47
+Primary Artist,1018,45
+Composer,1018,45
+Primary Artist,1019,45
+Composer,1019,45
+Primary Artist,1020,45
+Composer,1020,45
+Featured Artist,1020,10
+Primary Artist,1021,45
+Composer,1021,45
+Primary Artist,1022,45
+Composer,1022,45
+Primary Artist,1023,45
+Composer,1023,45
+Featured Artist,1023,14
+Primary Artist,1024,45
+Composer,1024,45
+Primary Artist,1025,45
+Composer,1025,45
+Primary Artist,1026,45
+Composer,1026,45
+Producer,1026,23
+Primary Artist,1027,45
+Composer,1027,45
+Primary Artist,1028,45
+Composer,1028,45
+Primary Artist,1029,45
+Composer,1029,45
+Featured Artist,1029,24
+Primary Artist,1030,45
+Composer,1030,45
+Primary Artist,1031,45
+Composer,1031,45
+Primary Artist,1032,45
+Composer,1032,45
+Featured Artist,1032,28
+Primary Artist,1033,45
+Composer,1033,45
+Primary Artist,1034,45
+Composer,1034,45
+Primary Artist,1035,45
+Composer,1035,45
+Mixing Engineer,1035,30
+Primary Artist,1036,46
+Composer,1036,46
+Primary Artist,1037,46
+Composer,1037,46
+Primary Artist,1038,46
+Composer,1038,46
+Producer,1038,22
+Primary Artist,1039,46
+Composer,1039,46
+Primary Artist,1040,46
+Composer,1040,46
+Primary Artist,1041,46
+Composer,1041,46
+Producer,1041,8
+Primary Artist,1042,46
+Composer,1042,46
+Primary Artist,1043,46
+Composer,1043,46
+Primary Artist,1044,46
+Composer,1044,46
+Producer,1044,38
+Primary Artist,1045,46
+Composer,1045,46
+Primary Artist,1046,46
+Composer,1046,46
+Primary Artist,1047,46
+Composer,1047,46
+Mixing Engineer,1047,23
+Primary Artist,1048,46
+Composer,1048,46
+Primary Artist,1049,46
+Composer,1049,46
+Primary Artist,1050,46
+Composer,1050,46
+Producer,1050,16
+Primary Artist,1051,46
+Composer,1051,46
+Primary Artist,1052,46
+Composer,1052,46
+Primary Artist,1053,46
+Composer,1053,46
+Featured Artist,1053,37
+Primary Artist,1054,46
+Composer,1054,46
+Primary Artist,1055,46
+Composer,1055,46
+Primary Artist,1056,46
+Composer,1056,46
+Producer,1056,24
+Primary Artist,1057,46
+Composer,1057,46
+Primary Artist,1058,46
+Composer,1058,46
+Primary Artist,1059,47
+Composer,1059,47
+Producer,1059,6
+Primary Artist,1060,47
+Composer,1060,47
+Primary Artist,1061,47
+Composer,1061,47
+Primary Artist,1062,47
+Composer,1062,47
+Featured Artist,1062,12
+Primary Artist,1063,47
+Composer,1063,47
+Primary Artist,1064,47
+Composer,1064,47
+Primary Artist,1065,47
+Composer,1065,47
+Featured Artist,1065,33
+Primary Artist,1066,47
+Composer,1066,47
+Primary Artist,1067,47
+Composer,1067,47
+Primary Artist,1068,47
+Composer,1068,47
+Mixing Engineer,1068,25
+Primary Artist,1069,47
+Composer,1069,47
+Primary Artist,1070,47
+Composer,1070,47
+Primary Artist,1071,47
+Composer,1071,47
+Producer,1071,11
+Primary Artist,1072,47
+Composer,1072,47
+Primary Artist,1073,47
+Composer,1073,47
+Primary Artist,1074,47
+Composer,1074,47
+Featured Artist,1074,14
+Primary Artist,1075,47
+Composer,1075,47
+Primary Artist,1076,47
+Composer,1076,47
+Primary Artist,1077,47
+Composer,1077,47
+Mixing Engineer,1077,18
+Primary Artist,1078,47
+Composer,1078,47
+Primary Artist,1079,47
+Composer,1079,47
+Primary Artist,1080,47
+Composer,1080,47
+Featured Artist,1080,16
+Primary Artist,1081,47
+Composer,1081,47
+Primary Artist,1082,48
+Composer,1082,48
+Primary Artist,1083,48
+Composer,1083,48
+Featured Artist,1083,45
+Primary Artist,1084,48
+Composer,1084,48
+Primary Artist,1085,48
+Composer,1085,48
+Primary Artist,1086,48
+Composer,1086,48
+Mixing Engineer,1086,20
+Primary Artist,1087,48
+Composer,1087,48
+Primary Artist,1088,48
+Composer,1088,48
+Primary Artist,1089,48
+Composer,1089,48
+Producer,1089,38
+Primary Artist,1090,48
+Composer,1090,48
+Primary Artist,1091,48
+Composer,1091,48
+Primary Artist,1092,48
+Composer,1092,48
+Mixing Engineer,1092,8
+Primary Artist,1093,48
+Composer,1093,48
+Primary Artist,1094,48
+Composer,1094,48
+Primary Artist,1095,48
+Composer,1095,48
+Featured Artist,1095,28
+Primary Artist,1096,48
+Composer,1096,48
+Primary Artist,1097,48
+Composer,1097,48
+Primary Artist,1098,48
+Composer,1098,48
+Featured Artist,1098,20
+Primary Artist,1099,48
+Composer,1099,48
+Primary Artist,1100,48
+Composer,1100,48
+Primary Artist,1101,48
+Composer,1101,48
+Mixing Engineer,1101,12
+Primary Artist,1102,48
+Composer,1102,48
+Primary Artist,1103,48
+Composer,1103,48
+Primary Artist,1104,48
+Composer,1104,48
+Producer,1104,30

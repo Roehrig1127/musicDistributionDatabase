@@ -1,0 +1,49 @@
+artist_ID,artist_name,artist_email,artist_bio,artist_genre
+1,Amber Harbor,artist001@example.com,Amber Harbor creates original indie rock recordings in a home studio.,Indie Rock
+2,Amber Orchard,artist002@example.com,Amber Orchard creates original jazz recordings in a home studio.,Jazz
+3,Amber Satellite,artist003@example.com,Amber Satellite creates original electronic recordings in a home studio.,Electronic
+4,Amber Echo,artist004@example.com,Amber Echo creates original folk recordings in a home studio.,Folk
+5,Amber Lantern,artist005@example.com,Amber Lantern creates original hip hop recordings in a home studio.,Hip Hop
+6,Amber River,artist006@example.com,Amber River creates original ambient recordings in a home studio.,Ambient
+7,Velvet Harbor,artist007@example.com,Velvet Harbor creates original soul recordings in a home studio.,Soul
+8,Velvet Orchard,artist008@example.com,Velvet Orchard creates original classical recordings in a home studio.,Classical
+9,Velvet Satellite,artist009@example.com,Velvet Satellite creates original pop recordings in a home studio.,Pop
+10,Velvet Echo,artist010@example.com,Velvet Echo creates original experimental recordings in a home studio.,Experimental
+11,Velvet Lantern,artist011@example.com,Velvet Lantern creates original indie rock recordings in a home studio.,Indie Rock
+12,Velvet River,artist012@example.com,Velvet River creates original jazz recordings in a home studio.,Jazz
+13,Silver Harbor,artist013@example.com,Silver Harbor creates original electronic recordings in a home studio.,Electronic
+14,Silver Orchard,artist014@example.com,Silver Orchard creates original folk recordings in a home studio.,Folk
+15,Silver Satellite,artist015@example.com,Silver Satellite creates original hip hop recordings in a home studio.,Hip Hop
+16,Silver Echo,artist016@example.com,Silver Echo creates original ambient recordings in a home studio.,Ambient
+17,Silver Lantern,artist017@example.com,Silver Lantern creates original soul recordings in a home studio.,Soul
+18,Silver River,artist018@example.com,Silver River creates original classical recordings in a home studio.,Classical
+19,Quiet Harbor,artist019@example.com,Quiet Harbor creates original pop recordings in a home studio.,Pop
+20,Quiet Orchard,artist020@example.com,Quiet Orchard creates original experimental recordings in a home studio.,Experimental
+21,Quiet Satellite,artist021@example.com,Quiet Satellite creates original indie rock recordings in a home studio.,Indie Rock
+22,Quiet Echo,artist022@example.com,Quiet Echo creates original jazz recordings in a home studio.,Jazz
+23,Quiet Lantern,artist023@example.com,Quiet Lantern creates original electronic recordings in a home studio.,Electronic
+24,Quiet River,artist024@example.com,Quiet River creates original folk recordings in a home studio.,Folk
+25,Neon Harbor,artist025@example.com,Neon Harbor creates original hip hop recordings in a home studio.,Hip Hop
+26,Neon Orchard,artist026@example.com,Neon Orchard creates original ambient recordings in a home studio.,Ambient
+27,Neon Satellite,artist027@example.com,Neon Satellite creates original soul recordings in a home studio.,Soul
+28,Neon Echo,artist028@example.com,Neon Echo creates original classical recordings in a home studio.,Classical
+29,Neon Lantern,artist029@example.com,Neon Lantern creates original pop recordings in a home studio.,Pop
+30,Neon River,artist030@example.com,Neon River creates original experimental recordings in a home studio.,Experimental
+31,Distant Harbor,artist031@example.com,Distant Harbor creates original indie rock recordings in a home studio.,Indie Rock
+32,Distant Orchard,artist032@example.com,Distant Orchard creates original jazz recordings in a home studio.,Jazz
+33,Distant Satellite,artist033@example.com,Distant Satellite creates original electronic recordings in a home studio.,Electronic
+34,Distant Echo,artist034@example.com,Distant Echo creates original folk recordings in a home studio.,Folk
+35,Distant Lantern,artist035@example.com,Distant Lantern creates original hip hop recordings in a home studio.,Hip Hop
+36,Distant River,artist036@example.com,Distant River creates original ambient recordings in a home studio.,Ambient
+37,Paper Harbor,artist037@example.com,Paper Harbor creates original soul recordings in a home studio.,Soul
+38,Paper Orchard,artist038@example.com,Paper Orchard creates original classical recordings in a home studio.,Classical
+39,Paper Satellite,artist039@example.com,Paper Satellite creates original pop recordings in a home studio.,Pop
+40,Paper Echo,artist040@example.com,Paper Echo creates original experimental recordings in a home studio.,Experimental
+41,Paper Lantern,artist041@example.com,Paper Lantern creates original indie rock recordings in a home studio.,Indie Rock
+42,Paper River,artist042@example.com,Paper River creates original jazz recordings in a home studio.,Jazz
+43,Golden Harbor,artist043@example.com,Golden Harbor creates original electronic recordings in a home studio.,Electronic
+44,Golden Orchard,artist044@example.com,Golden Orchard creates original folk recordings in a home studio.,Folk
+45,Golden Satellite,artist045@example.com,Golden Satellite creates original hip hop recordings in a home studio.,Hip Hop
+46,Golden Echo,artist046@example.com,Golden Echo creates original ambient recordings in a home studio.,Ambient
+47,Golden Lantern,artist047@example.com,Golden Lantern creates original soul recordings in a home studio.,Soul
+48,Golden River,artist048@example.com,Golden River creates original classical recordings in a home studio.,Classical

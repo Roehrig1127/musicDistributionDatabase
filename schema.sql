@@ -16,7 +16,7 @@ CREATE TABLE Artist (
 CREATE TABLE ListenerFollows (
     listener_username VARCHAR(100),
     artist_ID INTEGER,
-    FOREIGN KEY (listener_username) REFERENCES Listener(listener_username) ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (listener_username) REFERENCES Listener(listener_username) ON UPDATE CASCADE ON DELETE CASCADE,
     FOREIGN KEY (artist_ID) REFERENCES Artist(artist_ID) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
@@ -41,8 +41,7 @@ CREATE TABLE Track (
     
     released_on_title VARCHAR(100),
     released_on_date DATETIME,
-    FOREIGN KEY (released_on_title) REFERENCES MusicRelease(release_title) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (released_on_date) REFERENCES MusicRelease(release_date) ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (released_on_title, released_on_date) REFERENCES MusicRelease(release_title, release_date) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE ListenerCollection (
@@ -51,8 +50,7 @@ CREATE TABLE ListenerCollection (
     release_date DATETIME,
 
     FOREIGN KEY (listener_username) REFERENCES Listener(listener_username) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (release_title) REFERENCES MusicRelease(release_title) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (release_date) REFERENCES MusicRelease(release_date) ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (release_title, release_date) REFERENCES MusicRelease(release_title, release_date) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE TrackCredits (
@@ -76,8 +74,7 @@ CREATE TABLE Transactions ( -- transaction is a key word, needed to pluralize
     release_date DATETIME,
     FOREIGN KEY (artist_ID) REFERENCES Artist(artist_ID) ON UPDATE CASCADE ON DELETE CASCADE,
     FOREIGN KEY (listener_username) REFERENCES Listener(listener_username) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (release_title) REFERENCES MusicRelease(release_title) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (release_date) REFERENCES MusicRelease(release_date) ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (release_title, release_date) REFERENCES MusicRelease(release_title, release_date) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE Post (

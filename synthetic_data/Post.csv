@@ -1,0 +1,289 @@
+post_id,post_timestamp,post_body,artist_ID
+1,2025-01-02 12:00:00,New music is on the way! Thanks for listening.,1
+2,2025-02-16 12:00:00,Studio update: recording a new set of songs this week.,1
+3,2025-04-02 12:00:00,What track should we play at our next show?,1
+4,2025-05-17 12:00:00,New music is on the way! Thanks for listening.,1
+5,2025-07-01 12:00:00,Studio update: recording a new set of songs this week.,1
+6,2025-08-15 12:00:00,What track should we play at our next show?,1
+7,2025-01-03 12:00:00,New music is on the way! Thanks for listening.,2
+8,2025-02-17 12:00:00,Studio update: recording a new set of songs this week.,2
+9,2025-04-03 12:00:00,What track should we play at our next show?,2
+10,2025-05-18 12:00:00,New music is on the way! Thanks for listening.,2
+11,2025-07-02 12:00:00,Studio update: recording a new set of songs this week.,2
+12,2025-08-16 12:00:00,What track should we play at our next show?,2
+13,2025-01-04 12:00:00,New music is on the way! Thanks for listening.,3
+14,2025-02-18 12:00:00,Studio update: recording a new set of songs this week.,3
+15,2025-04-04 12:00:00,What track should we play at our next show?,3
+16,2025-05-19 12:00:00,New music is on the way! Thanks for listening.,3
+17,2025-07-03 12:00:00,Studio update: recording a new set of songs this week.,3
+18,2025-08-17 12:00:00,What track should we play at our next show?,3
+19,2025-01-05 12:00:00,New music is on the way! Thanks for listening.,4
+20,2025-02-19 12:00:00,Studio update: recording a new set of songs this week.,4
+21,2025-04-05 12:00:00,What track should we play at our next show?,4
+22,2025-05-20 12:00:00,New music is on the way! Thanks for listening.,4
+23,2025-07-04 12:00:00,Studio update: recording a new set of songs this week.,4
+24,2025-08-18 12:00:00,What track should we play at our next show?,4
+25,2025-01-06 12:00:00,New music is on the way! Thanks for listening.,5
+26,2025-02-20 12:00:00,Studio update: recording a new set of songs this week.,5
+27,2025-04-06 12:00:00,What track should we play at our next show?,5
+28,2025-05-21 12:00:00,New music is on the way! Thanks for listening.,5
+29,2025-07-05 12:00:00,Studio update: recording a new set of songs this week.,5
+30,2025-08-19 12:00:00,What track should we play at our next show?,5
+31,2025-01-07 12:00:00,New music is on the way! Thanks for listening.,6
+32,2025-02-21 12:00:00,Studio update: recording a new set of songs this week.,6
+33,2025-04-07 12:00:00,What track should we play at our next show?,6
+34,2025-05-22 12:00:00,New music is on the way! Thanks for listening.,6
+35,2025-07-06 12:00:00,Studio update: recording a new set of songs this week.,6
+36,2025-08-20 12:00:00,What track should we play at our next show?,6
+37,2025-01-08 12:00:00,New music is on the way! Thanks for listening.,7
+38,2025-02-22 12:00:00,Studio update: recording a new set of songs this week.,7
+39,2025-04-08 12:00:00,What track should we play at our next show?,7
+40,2025-05-23 12:00:00,New music is on the way! Thanks for listening.,7
+41,2025-07-07 12:00:00,Studio update: recording a new set of songs this week.,7
+42,2025-08-21 12:00:00,What track should we play at our next show?,7
+43,2025-01-09 12:00:00,New music is on the way! Thanks for listening.,8
+44,2025-02-23 12:00:00,Studio update: recording a new set of songs this week.,8
+45,2025-04-09 12:00:00,What track should we play at our next show?,8
+46,2025-05-24 12:00:00,New music is on the way! Thanks for listening.,8
+47,2025-07-08 12:00:00,Studio update: recording a new set of songs this week.,8
+48,2025-08-22 12:00:00,What track should we play at our next show?,8
+49,2025-01-10 12:00:00,New music is on the way! Thanks for listening.,9
+50,2025-02-24 12:00:00,Studio update: recording a new set of songs this week.,9
+51,2025-04-10 12:00:00,What track should we play at our next show?,9
+52,2025-05-25 12:00:00,New music is on the way! Thanks for listening.,9
+53,2025-07-09 12:00:00,Studio update: recording a new set of songs this week.,9
+54,2025-08-23 12:00:00,What track should we play at our next show?,9
+55,2025-01-11 12:00:00,New music is on the way! Thanks for listening.,10
+56,2025-02-25 12:00:00,Studio update: recording a new set of songs this week.,10
+57,2025-04-11 12:00:00,What track should we play at our next show?,10
+58,2025-05-26 12:00:00,New music is on the way! Thanks for listening.,10
+59,2025-07-10 12:00:00,Studio update: recording a new set of songs this week.,10
+60,2025-08-24 12:00:00,What track should we play at our next show?,10
+61,2025-01-12 12:00:00,New music is on the way! Thanks for listening.,11
+62,2025-02-26 12:00:00,Studio update: recording a new set of songs this week.,11
+63,2025-04-12 12:00:00,What track should we play at our next show?,11
+64,2025-05-27 12:00:00,New music is on the way! Thanks for listening.,11
+65,2025-07-11 12:00:00,Studio update: recording a new set of songs this week.,11
+66,2025-08-25 12:00:00,What track should we play at our next show?,11
+67,2025-01-13 12:00:00,New music is on the way! Thanks for listening.,12
+68,2025-02-27 12:00:00,Studio update: recording a new set of songs this week.,12
+69,2025-04-13 12:00:00,What track should we play at our next show?,12
+70,2025-05-28 12:00:00,New music is on the way! Thanks for listening.,12
+71,2025-07-12 12:00:00,Studio update: recording a new set of songs this week.,12
+72,2025-08-26 12:00:00,What track should we play at our next show?,12
+73,2025-01-14 12:00:00,New music is on the way! Thanks for listening.,13
+74,2025-02-28 12:00:00,Studio update: recording a new set of songs this week.,13
+75,2025-04-14 12:00:00,What track should we play at our next show?,13
+76,2025-05-29 12:00:00,New music is on the way! Thanks for listening.,13
+77,2025-07-13 12:00:00,Studio update: recording a new set of songs this week.,13
+78,2025-08-27 12:00:00,What track should we play at our next show?,13
+79,2025-01-15 12:00:00,New music is on the way! Thanks for listening.,14
+80,2025-03-01 12:00:00,Studio update: recording a new set of songs this week.,14
+81,2025-04-15 12:00:00,What track should we play at our next show?,14
+82,2025-05-30 12:00:00,New music is on the way! Thanks for listening.,14
+83,2025-07-14 12:00:00,Studio update: recording a new set of songs this week.,14
+84,2025-08-28 12:00:00,What track should we play at our next show?,14
+85,2025-01-16 12:00:00,New music is on the way! Thanks for listening.,15
+86,2025-03-02 12:00:00,Studio update: recording a new set of songs this week.,15
+87,2025-04-16 12:00:00,What track should we play at our next show?,15
+88,2025-05-31 12:00:00,New music is on the way! Thanks for listening.,15
+89,2025-07-15 12:00:00,Studio update: recording a new set of songs this week.,15
+90,2025-08-29 12:00:00,What track should we play at our next show?,15
+91,2025-01-17 12:00:00,New music is on the way! Thanks for listening.,16
+92,2025-03-03 12:00:00,Studio update: recording a new set of songs this week.,16
+93,2025-04-17 12:00:00,What track should we play at our next show?,16
+94,2025-06-01 12:00:00,New music is on the way! Thanks for listening.,16
+95,2025-07-16 12:00:00,Studio update: recording a new set of songs this week.,16
+96,2025-08-30 12:00:00,What track should we play at our next show?,16
+97,2025-01-18 12:00:00,New music is on the way! Thanks for listening.,17
+98,2025-03-04 12:00:00,Studio update: recording a new set of songs this week.,17
+99,2025-04-18 12:00:00,What track should we play at our next show?,17
+100,2025-06-02 12:00:00,New music is on the way! Thanks for listening.,17
+101,2025-07-17 12:00:00,Studio update: recording a new set of songs this week.,17
+102,2025-08-31 12:00:00,What track should we play at our next show?,17
+103,2025-01-19 12:00:00,New music is on the way! Thanks for listening.,18
+104,2025-03-05 12:00:00,Studio update: recording a new set of songs this week.,18
+105,2025-04-19 12:00:00,What track should we play at our next show?,18
+106,2025-06-03 12:00:00,New music is on the way! Thanks for listening.,18
+107,2025-07-18 12:00:00,Studio update: recording a new set of songs this week.,18
+108,2025-09-01 12:00:00,What track should we play at our next show?,18
+109,2025-01-20 12:00:00,New music is on the way! Thanks for listening.,19
+110,2025-03-06 12:00:00,Studio update: recording a new set of songs this week.,19
+111,2025-04-20 12:00:00,What track should we play at our next show?,19
+112,2025-06-04 12:00:00,New music is on the way! Thanks for listening.,19
+113,2025-07-19 12:00:00,Studio update: recording a new set of songs this week.,19
+114,2025-09-02 12:00:00,What track should we play at our next show?,19
+115,2025-01-01 12:00:00,New music is on the way! Thanks for listening.,20
+116,2025-02-15 12:00:00,Studio update: recording a new set of songs this week.,20
+117,2025-04-01 12:00:00,What track should we play at our next show?,20
+118,2025-05-16 12:00:00,New music is on the way! Thanks for listening.,20
+119,2025-06-30 12:00:00,Studio update: recording a new set of songs this week.,20
+120,2025-08-14 12:00:00,What track should we play at our next show?,20
+121,2025-01-02 12:00:00,New music is on the way! Thanks for listening.,21
+122,2025-02-16 12:00:00,Studio update: recording a new set of songs this week.,21
+123,2025-04-02 12:00:00,What track should we play at our next show?,21
+124,2025-05-17 12:00:00,New music is on the way! Thanks for listening.,21
+125,2025-07-01 12:00:00,Studio update: recording a new set of songs this week.,21
+126,2025-08-15 12:00:00,What track should we play at our next show?,21
+127,2025-01-03 12:00:00,New music is on the way! Thanks for listening.,22
+128,2025-02-17 12:00:00,Studio update: recording a new set of songs this week.,22
+129,2025-04-03 12:00:00,What track should we play at our next show?,22
+130,2025-05-18 12:00:00,New music is on the way! Thanks for listening.,22
+131,2025-07-02 12:00:00,Studio update: recording a new set of songs this week.,22
+132,2025-08-16 12:00:00,What track should we play at our next show?,22
+133,2025-01-04 12:00:00,New music is on the way! Thanks for listening.,23
+134,2025-02-18 12:00:00,Studio update: recording a new set of songs this week.,23
+135,2025-04-04 12:00:00,What track should we play at our next show?,23
+136,2025-05-19 12:00:00,New music is on the way! Thanks for listening.,23
+137,2025-07-03 12:00:00,Studio update: recording a new set of songs this week.,23
+138,2025-08-17 12:00:00,What track should we play at our next show?,23
+139,2025-01-05 12:00:00,New music is on the way! Thanks for listening.,24
+140,2025-02-19 12:00:00,Studio update: recording a new set of songs this week.,24
+141,2025-04-05 12:00:00,What track should we play at our next show?,24
+142,2025-05-20 12:00:00,New music is on the way! Thanks for listening.,24
+143,2025-07-04 12:00:00,Studio update: recording a new set of songs this week.,24
+144,2025-08-18 12:00:00,What track should we play at our next show?,24
+145,2025-01-06 12:00:00,New music is on the way! Thanks for listening.,25
+146,2025-02-20 12:00:00,Studio update: recording a new set of songs this week.,25
+147,2025-04-06 12:00:00,What track should we play at our next show?,25
+148,2025-05-21 12:00:00,New music is on the way! Thanks for listening.,25
+149,2025-07-05 12:00:00,Studio update: recording a new set of songs this week.,25
+150,2025-08-19 12:00:00,What track should we play at our next show?,25
+151,2025-01-07 12:00:00,New music is on the way! Thanks for listening.,26
+152,2025-02-21 12:00:00,Studio update: recording a new set of songs this week.,26
+153,2025-04-07 12:00:00,What track should we play at our next show?,26
+154,2025-05-22 12:00:00,New music is on the way! Thanks for listening.,26
+155,2025-07-06 12:00:00,Studio update: recording a new set of songs this week.,26
+156,2025-08-20 12:00:00,What track should we play at our next show?,26
+157,2025-01-08 12:00:00,New music is on the way! Thanks for listening.,27
+158,2025-02-22 12:00:00,Studio update: recording a new set of songs this week.,27
+159,2025-04-08 12:00:00,What track should we play at our next show?,27
+160,2025-05-23 12:00:00,New music is on the way! Thanks for listening.,27
+161,2025-07-07 12:00:00,Studio update: recording a new set of songs this week.,27
+162,2025-08-21 12:00:00,What track should we play at our next show?,27
+163,2025-01-09 12:00:00,New music is on the way! Thanks for listening.,28
+164,2025-02-23 12:00:00,Studio update: recording a new set of songs this week.,28
+165,2025-04-09 12:00:00,What track should we play at our next show?,28
+166,2025-05-24 12:00:00,New music is on the way! Thanks for listening.,28
+167,2025-07-08 12:00:00,Studio update: recording a new set of songs this week.,28
+168,2025-08-22 12:00:00,What track should we play at our next show?,28
+169,2025-01-10 12:00:00,New music is on the way! Thanks for listening.,29
+170,2025-02-24 12:00:00,Studio update: recording a new set of songs this week.,29
+171,2025-04-10 12:00:00,What track should we play at our next show?,29
+172,2025-05-25 12:00:00,New music is on the way! Thanks for listening.,29
+173,2025-07-09 12:00:00,Studio update: recording a new set of songs this week.,29
+174,2025-08-23 12:00:00,What track should we play at our next show?,29
+175,2025-01-11 12:00:00,New music is on the way! Thanks for listening.,30
+176,2025-02-25 12:00:00,Studio update: recording a new set of songs this week.,30
+177,2025-04-11 12:00:00,What track should we play at our next show?,30
+178,2025-05-26 12:00:00,New music is on the way! Thanks for listening.,30
+179,2025-07-10 12:00:00,Studio update: recording a new set of songs this week.,30
+180,2025-08-24 12:00:00,What track should we play at our next show?,30
+181,2025-01-12 12:00:00,New music is on the way! Thanks for listening.,31
+182,2025-02-26 12:00:00,Studio update: recording a new set of songs this week.,31
+183,2025-04-12 12:00:00,What track should we play at our next show?,31
+184,2025-05-27 12:00:00,New music is on the way! Thanks for listening.,31
+185,2025-07-11 12:00:00,Studio update: recording a new set of songs this week.,31
+186,2025-08-25 12:00:00,What track should we play at our next show?,31
+187,2025-01-13 12:00:00,New music is on the way! Thanks for listening.,32
+188,2025-02-27 12:00:00,Studio update: recording a new set of songs this week.,32
+189,2025-04-13 12:00:00,What track should we play at our next show?,32
+190,2025-05-28 12:00:00,New music is on the way! Thanks for listening.,32
+191,2025-07-12 12:00:00,Studio update: recording a new set of songs this week.,32
+192,2025-08-26 12:00:00,What track should we play at our next show?,32
+193,2025-01-14 12:00:00,New music is on the way! Thanks for listening.,33
+194,2025-02-28 12:00:00,Studio update: recording a new set of songs this week.,33
+195,2025-04-14 12:00:00,What track should we play at our next show?,33
+196,2025-05-29 12:00:00,New music is on the way! Thanks for listening.,33
+197,2025-07-13 12:00:00,Studio update: recording a new set of songs this week.,33
+198,2025-08-27 12:00:00,What track should we play at our next show?,33
+199,2025-01-15 12:00:00,New music is on the way! Thanks for listening.,34
+200,2025-03-01 12:00:00,Studio update: recording a new set of songs this week.,34
+201,2025-04-15 12:00:00,What track should we play at our next show?,34
+202,2025-05-30 12:00:00,New music is on the way! Thanks for listening.,34
+203,2025-07-14 12:00:00,Studio update: recording a new set of songs this week.,34
+204,2025-08-28 12:00:00,What track should we play at our next show?,34
+205,2025-01-16 12:00:00,New music is on the way! Thanks for listening.,35
+206,2025-03-02 12:00:00,Studio update: recording a new set of songs this week.,35
+207,2025-04-16 12:00:00,What track should we play at our next show?,35
+208,2025-05-31 12:00:00,New music is on the way! Thanks for listening.,35
+209,2025-07-15 12:00:00,Studio update: recording a new set of songs this week.,35
+210,2025-08-29 12:00:00,What track should we play at our next show?,35
+211,2025-01-17 12:00:00,New music is on the way! Thanks for listening.,36
+212,2025-03-03 12:00:00,Studio update: recording a new set of songs this week.,36
+213,2025-04-17 12:00:00,What track should we play at our next show?,36
+214,2025-06-01 12:00:00,New music is on the way! Thanks for listening.,36
+215,2025-07-16 12:00:00,Studio update: recording a new set of songs this week.,36
+216,2025-08-30 12:00:00,What track should we play at our next show?,36
+217,2025-01-18 12:00:00,New music is on the way! Thanks for listening.,37
+218,2025-03-04 12:00:00,Studio update: recording a new set of songs this week.,37
+219,2025-04-18 12:00:00,What track should we play at our next show?,37
+220,2025-06-02 12:00:00,New music is on the way! Thanks for listening.,37
+221,2025-07-17 12:00:00,Studio update: recording a new set of songs this week.,37
+222,2025-08-31 12:00:00,What track should we play at our next show?,37
+223,2025-01-19 12:00:00,New music is on the way! Thanks for listening.,38
+224,2025-03-05 12:00:00,Studio update: recording a new set of songs this week.,38
+225,2025-04-19 12:00:00,What track should we play at our next show?,38
+226,2025-06-03 12:00:00,New music is on the way! Thanks for listening.,38
+227,2025-07-18 12:00:00,Studio update: recording a new set of songs this week.,38
+228,2025-09-01 12:00:00,What track should we play at our next show?,38
+229,2025-01-20 12:00:00,New music is on the way! Thanks for listening.,39
+230,2025-03-06 12:00:00,Studio update: recording a new set of songs this week.,39
+231,2025-04-20 12:00:00,What track should we play at our next show?,39
+232,2025-06-04 12:00:00,New music is on the way! Thanks for listening.,39
+233,2025-07-19 12:00:00,Studio update: recording a new set of songs this week.,39
+234,2025-09-02 12:00:00,What track should we play at our next show?,39
+235,2025-01-01 12:00:00,New music is on the way! Thanks for listening.,40
+236,2025-02-15 12:00:00,Studio update: recording a new set of songs this week.,40
+237,2025-04-01 12:00:00,What track should we play at our next show?,40
+238,2025-05-16 12:00:00,New music is on the way! Thanks for listening.,40
+239,2025-06-30 12:00:00,Studio update: recording a new set of songs this week.,40
+240,2025-08-14 12:00:00,What track should we play at our next show?,40
+241,2025-01-02 12:00:00,New music is on the way! Thanks for listening.,41
+242,2025-02-16 12:00:00,Studio update: recording a new set of songs this week.,41
+243,2025-04-02 12:00:00,What track should we play at our next show?,41
+244,2025-05-17 12:00:00,New music is on the way! Thanks for listening.,41
+245,2025-07-01 12:00:00,Studio update: recording a new set of songs this week.,41
+246,2025-08-15 12:00:00,What track should we play at our next show?,41
+247,2025-01-03 12:00:00,New music is on the way! Thanks for listening.,42
+248,2025-02-17 12:00:00,Studio update: recording a new set of songs this week.,42
+249,2025-04-03 12:00:00,What track should we play at our next show?,42
+250,2025-05-18 12:00:00,New music is on the way! Thanks for listening.,42
+251,2025-07-02 12:00:00,Studio update: recording a new set of songs this week.,42
+252,2025-08-16 12:00:00,What track should we play at our next show?,42
+253,2025-01-04 12:00:00,New music is on the way! Thanks for listening.,43
+254,2025-02-18 12:00:00,Studio update: recording a new set of songs this week.,43
+255,2025-04-04 12:00:00,What track should we play at our next show?,43
+256,2025-05-19 12:00:00,New music is on the way! Thanks for listening.,43
+257,2025-07-03 12:00:00,Studio update: recording a new set of songs this week.,43
+258,2025-08-17 12:00:00,What track should we play at our next show?,43
+259,2025-01-05 12:00:00,New music is on the way! Thanks for listening.,44
+260,2025-02-19 12:00:00,Studio update: recording a new set of songs this week.,44
+261,2025-04-05 12:00:00,What track should we play at our next show?,44
+262,2025-05-20 12:00:00,New music is on the way! Thanks for listening.,44
+263,2025-07-04 12:00:00,Studio update: recording a new set of songs this week.,44
+264,2025-08-18 12:00:00,What track should we play at our next show?,44
+265,2025-01-06 12:00:00,New music is on the way! Thanks for listening.,45
+266,2025-02-20 12:00:00,Studio update: recording a new set of songs this week.,45
+267,2025-04-06 12:00:00,What track should we play at our next show?,45
+268,2025-05-21 12:00:00,New music is on the way! Thanks for listening.,45
+269,2025-07-05 12:00:00,Studio update: recording a new set of songs this week.,45
+270,2025-08-19 12:00:00,What track should we play at our next show?,45
+271,2025-01-07 12:00:00,New music is on the way! Thanks for listening.,46
+272,2025-02-21 12:00:00,Studio update: recording a new set of songs this week.,46
+273,2025-04-07 12:00:00,What track should we play at our next show?,46
+274,2025-05-22 12:00:00,New music is on the way! Thanks for listening.,46
+275,2025-07-06 12:00:00,Studio update: recording a new set of songs this week.,46
+276,2025-08-20 12:00:00,What track should we play at our next show?,46
+277,2025-01-08 12:00:00,New music is on the way! Thanks for listening.,47
+278,2025-02-22 12:00:00,Studio update: recording a new set of songs this week.,47
+279,2025-04-08 12:00:00,What track should we play at our next show?,47
+280,2025-05-23 12:00:00,New music is on the way! Thanks for listening.,47
+281,2025-07-07 12:00:00,Studio update: recording a new set of songs this week.,47
+282,2025-08-21 12:00:00,What track should we play at our next show?,47
+283,2025-01-09 12:00:00,New music is on the way! Thanks for listening.,48
+284,2025-02-23 12:00:00,Studio update: recording a new set of songs this week.,48
+285,2025-04-09 12:00:00,What track should we play at our next show?,48
+286,2025-05-24 12:00:00,New music is on the way! Thanks for listening.,48
+287,2025-07-08 12:00:00,Studio update: recording a new set of songs this week.,48
+288,2025-08-22 12:00:00,What track should we play at our next show?,48
