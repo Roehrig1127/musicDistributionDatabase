@@ -108,7 +108,6 @@ FROM MusicRelease
 WHERE release_price = 0
 ORDER BY release_date;
 
-
 -- ----------------------------------------------------------------------------
 -- Statement 6: 
 -- Explanation: 
@@ -166,19 +165,38 @@ WHERE post_timestamp >= '2025-07-01'
 GROUP BY artist_ID;
 
 -- ----------------------------------------------------------------------------
--- Statement 13: 
--- Explanation: 
+-- Statement 13: Artist Increases Prices
+-- Explanation: Updates the price of all releases conditionally based on which
+-- artist released it, as a bulk price adjustment
 -- ----------------------------------------------------------------------------
 
--- ----------------------------------------------------------------------------
--- Statement 14: 
--- Explanation: 
--- ----------------------------------------------------------------------------
+UPDATE MusicRelease
+SET release_price = release_price + 1
+WHERE release_artist = 8;
 
 -- ----------------------------------------------------------------------------
--- Statement 15: 
--- Explanation: 
+-- Statement 14: Return Highly Following Listeners
+-- Explanation: Groups all users and returns only those who follow at least 10 
+-- distinct artists
 -- ----------------------------------------------------------------------------
+
+SELECT listener_username, COUNT(DISTINCT artist_ID) AS artists_followed
+FROM ListenerFollows
+GROUP BY listener_username
+HAVING COUNT(DISTINCT artist_ID) >= 10;
+
+-- ----------------------------------------------------------------------------
+-- Statement 15: Return High Costing Transactions
+-- Explanation: Queries the average transaction amounts, and returns all 
+-- transactions which costed a higher amount
+-- ----------------------------------------------------------------------------
+
+SELECT transaction_id, transaction_amount
+FROM Transactions
+WHERE transaction_amount > (
+    SELECT AVG(transaction_amount)
+    FROM Transactions
+);
 
 -- ----------------------------------------------------------------------------
 -- Statement 16: 
@@ -228,9 +246,20 @@ JOIN TrackCredits AS tc ON tc.track_ID = t.track_ID
 WHERE tc.artist_ID <> r.release_artist;
 
 -- ----------------------------------------------------------------------------
--- Statement 22: 
--- Explanation: 
+-- Statement 22: Most Posting Artists
+-- Explanation: Creates a WITH clause holding the amount of posts made by every
+-- artist, and returns the artists who have the most posts
 -- ----------------------------------------------------------------------------
+
+WITH ArtistPostCounts AS (
+    SELECT a.artist_ID, a.artist_name, COUNT(p.post_id) AS post_count
+    FROM Artist AS a
+    LEFT JOIN Post AS p ON p.artist_ID = a.artist_ID
+    GROUP BY a.artist_ID, a.artist_name
+)
+SELECT artist_ID, artist_name, post_count
+FROM ArtistPostCounts
+WHERE post_count = (SELECT MAX(post_count) FROM ArtistPostCounts);
 
 -- ----------------------------------------------------------------------------
 -- Statement 23: 
