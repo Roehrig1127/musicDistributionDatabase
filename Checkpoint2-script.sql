@@ -10,6 +10,8 @@
 -- ============================================================================
 -- 1. Foreign Key Restructuring: The checkpoint 1 submission did not predefine 
 -- the types of foreign keys, which have since been added.
+-- 2. Transactions NULL: Certain foreign keys in the transactions table were
+-- changed as transactions should never be removed if an artist or user deletes
 -- ============================================================================
 
 -- ============================================================================
@@ -21,11 +23,11 @@
 -- Statement 03: Nathan Roehrig 100%
 -- Statement 04: Nathan Roehrig 100%
 -- Statement 05: Nathan Roehrig 100%
--- Statement 06: 
--- Statement 07: 
--- Statement 08: 
--- Statement 09: 
--- Statement 10: 
+-- Statement 06: Evelyn Lobach 100%
+-- Statement 07: Evelyn Lobach 100%
+-- Statement 08: Evelyn Lobach 100%
+-- Statement 09: Evelyn Lobach 100%
+-- Statement 10: Evelyn Lobach 100%
 --
 -- SECTION 2: INTERMEDIATE STATEMENTS
 -- Statement 11: Nathan Roehrig 100%
@@ -33,11 +35,11 @@
 -- Statement 13: Nathan Roehrig 100%
 -- Statement 14: Nathan Roehrig 100%
 -- Statement 15: Nathan Roehrig 100%
--- Statement 16: 
--- Statement 17: 
--- Statement 18: 
--- Statement 19: 
--- Statement 20: 
+-- Statement 16: Evelyn Lobach 100%
+-- Statement 17: Evelyn Lobach 100%
+-- Statement 18: Evelyn Lobach 100%
+-- Statement 19: Evelyn Lobach 100%
+-- Statement 20: Evelyn Lobach 100%
 --
 -- SECTION 3: COMPLEX STATEMENTS
 -- Statement 21: Nathan Roehrig 100%
@@ -45,11 +47,11 @@
 -- Statement 23: Nathan Roehrig 100%
 -- Statement 24: Nathan Roehrig 100%
 -- Statement 25: Nathan Roehrig 100%
--- Statement 26: 
--- Statement 27: 
--- Statement 28: 
--- Statement 29: 
--- Statement 30: 
+-- Statement 26: Evelyn Lobach 100%
+-- Statement 27: Evelyn Lobach 100%
+-- Statement 28: Evelyn Lobach 100%
+-- Statement 29: Evelyn Lobach 100%
+-- Statement 30: Evelyn Lobach 100%
 -- ============================================================================
 
 PRAGMA foreign_keys = ON;
@@ -119,9 +121,11 @@ ORDER BY num_artists DESC;
 
 -- ----------------------------------------------------------------------------
 -- Statement 7: Artist Recent Transactions
--- Explanation: Retrieves relevant information from transactions involving an artist from the past 12 months
+-- Explanation: Retrieves relevant information from transactions involving an 
+-- artist from the past 12 months
 -- ----------------------------------------------------------------------------
-SELECT transaction_timestamp [Timestamp], transaction_amount [Amount], transaction_message [Message], listener_username [Listener]
+SELECT transaction_timestamp [Timestamp], transaction_amount [Amount], 
+transaction_message [Message], listener_username [Listener]
 FROM Transactions
 WHERE artist_ID = 8 and Timestamp > datetime('now', '-12 months');
 
@@ -146,7 +150,8 @@ WHERE release_artist = 8;
 -- Explanation: Updates an artist's description
 -- ----------------------------------------------------------------------------
 UPDATE Artist
-SET artist_bio = 'Amber Harbor creates original indie rock recordings in a home studio.'
+SET artist_bio = 'Amber Harbor creates original indie rock recordings in a home
+ studio.'
 WHERE artist_ID = 1;
 
 -- ============================================================================
@@ -224,7 +229,8 @@ WHERE track_ID = 6;
 
 -- ----------------------------------------------------------------------------
 -- Statement 17: Most popular artists
--- Explanation: Get each artist's follower count and display the most popular first
+-- Explanation: Get each artist's follower count and display the most popular 
+-- first
 -- ----------------------------------------------------------------------------
 SELECT artist_name, artist_genre, COUNT(listener_username) [Followers]
 FROM Artist
@@ -234,7 +240,8 @@ ORDER BY Followers DESC, artist_genre;
 
 -- ----------------------------------------------------------------------------
 -- Statement 18: 
--- Explanation: Get the number of genres that a listener likes by looking at their followed artists
+-- Explanation: Get the number of genres that a listener likes by looking at 
+-- their followed artists
 -- ----------------------------------------------------------------------------
 SELECT listener_username, COUNT(DISTINCT artist_genre) [num_genres]
 FROM Listener
@@ -325,7 +332,8 @@ JOIN Post ON Post.artist_id = Artist.artist_id
 WHERE post_timestamp = latest;
 -- ----------------------------------------------------------------------------
 -- Statement 27: Artist supporters
--- Explanation: Get each listener who follows a specific artist name and has bought music from that artist
+-- Explanation: Get each listener who follows a specific artist name and has 
+-- bought music from that artist
 -- ----------------------------------------------------------------------------
 
 DROP VIEW IF EXISTS ArtistFollowers;
@@ -347,11 +355,13 @@ INTERSECT
 SELECT * FROM ArtistSupporters;
 -- ----------------------------------------------------------------------------
 -- Statement 28: Similar artist
--- Explanation: For each artist, gets another artist with the highest overlap in followers
+-- Explanation: For each artist, gets another artist with the highest overlap 
+-- in followers
 -- ----------------------------------------------------------------------------
 DROP VIEW IF EXISTS OverlappingFollowers;
 CREATE VIEW OverlappingFollowers AS
-    SELECT COUNT(A.listener_username) [Overlap], A.artist_ID [artist_A], B.artist_ID [artist_B]
+    SELECT COUNT(A.listener_username) [Overlap], A.artist_ID [artist_A], 
+    B.artist_ID [artist_B]
     FROM ListenerFollows A 
     JOIN ListenerFollows B ON A.listener_username = B.listener_username
     and A.artist_ID <> B.artist_ID

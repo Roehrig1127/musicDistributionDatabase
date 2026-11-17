@@ -83,8 +83,8 @@ CREATE TABLE Transactions ( -- transaction is a key word, needed to pluralize
     release_title VARCHAR(100),
     release_date DATETIME,
     FOREIGN KEY (artist_ID) REFERENCES Artist(artist_ID) ON UPDATE CASCADE ON DELETE SET NULL,
-    FOREIGN KEY (listener_username) REFERENCES Listener(listener_username) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (release_title, release_date) REFERENCES MusicRelease(release_title, release_date) ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (listener_username) REFERENCES Listener(listener_username) ON UPDATE CASCADE ON DELETE SET NULL,
+    FOREIGN KEY (release_title, release_date) REFERENCES MusicRelease(release_title, release_date) ON UPDATE CASCADE ON DELETE SET NULL
 );
 
 CREATE TABLE Post (
