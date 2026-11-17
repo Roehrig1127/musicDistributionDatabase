@@ -254,9 +254,11 @@ ORDER BY total_amount DESC
 LIMIT 5;
 -- ----------------------------------------------------------------------------
 -- Statement 20: 
--- Explanation: 
+-- Explanation: Get all artists who posted music in September 2025
 -- ----------------------------------------------------------------------------
-
+SELECT DISTINCT artist_name [ArtistName]
+FROM Artist NATURAL JOIN MusicRelease
+WHERE release_date LIKE '2025-09%'
 
 -- ============================================================================
 -- SECTION 3: COMPLEX STATEMENTS (Statements 21 to 32)
@@ -346,7 +348,7 @@ SELECT * FROM ArtistFollowers
 INTERSECT 
 SELECT * FROM ArtistSupporters;
 -- ----------------------------------------------------------------------------
--- Statement 28: Similar artist
+-- Statement 28: Similar artists
 -- Explanation: For each artist, gets another artist with the highest overlap in followers
 -- ----------------------------------------------------------------------------
 DROP VIEW IF EXISTS OverlappingFollowers;
@@ -366,12 +368,41 @@ SELECT artist_A, artist_B, Overlap FROM
     GROUP BY artist_A
 );
 -- ----------------------------------------------------------------------------
--- Statement 29: 
--- Explanation: 
+-- Statement 29: Favorite artists
+-- Explanation: For every listener, gets the artist(s) from which they have the most releases in their collection
 -- ----------------------------------------------------------------------------
+WITH BoughtReleases AS (
+SELECT listener_username, release_artist, COUNT(*) [releases]
+FROM ListenerCollection NATURAL JOIN MusicRelease
+GROUP BY listener_username, release_artist
+), 
 
+MaxReleases AS (
+SELECT listener_username, MAX(releases) [max_releases]
+FROM BoughtReleases
+GROUP BY listener_username
+)
+SELECT listener_username, release_artist
+FROM BoughtReleases [b] NATURAL JOIN MaxReleases [m]
+WHERE releases = max_releases;
 -- ----------------------------------------------------------------------------
 -- Statement 30: 
--- Explanation: 
+-- Explanation: Finds the best selling release for every month of 2024
 -- ----------------------------------------------------------------------------
+WITH ReleaseTotals AS
+(
+    SELECT strftime('%m',transaction_timestamp) [month], release_title, release_date, 
+    SUM(transaction_amount) [total]
+    FROM MusicRelease NATURAL JOIN Transactions
+    WHERE transaction_timestamp LIKE '2024%'
+    GROUP BY month, release_title, release_date
+),
+BestSelling AS
+(
+    SELECT month, release_title, release_date, MAX(total) [Earnings]
+    FROM ReleaseTotals
+    GROUP BY month
+)
+SELECT * FROM BestSelling;
+
 
