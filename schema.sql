@@ -1,3 +1,13 @@
+DROP TABLE Artist;
+DROP TABLE Listener;
+DROP TABLE ListenerCollection;
+DROP TABLE ListenerFollows;
+DROP TABLE MusicRelease;
+DROP TABLE Post;
+DROP TABLE Track;
+DROP TABLE TrackCredits;
+DROP TABLE Transactions;
+
 CREATE TABLE Listener (
     listener_username VARCHAR(100) PRIMARY KEY,
     listener_email VARCHAR(100) NOT NULL,
@@ -72,7 +82,7 @@ CREATE TABLE Transactions ( -- transaction is a key word, needed to pluralize
     listener_username VARCHAR(100),
     release_title VARCHAR(100),
     release_date DATETIME,
-    FOREIGN KEY (artist_ID) REFERENCES Artist(artist_ID) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (artist_ID) REFERENCES Artist(artist_ID) ON UPDATE CASCADE ON DELETE SET NULL,
     FOREIGN KEY (listener_username) REFERENCES Listener(listener_username) ON UPDATE CASCADE ON DELETE CASCADE,
     FOREIGN KEY (release_title, release_date) REFERENCES MusicRelease(release_title, release_date) ON UPDATE CASCADE ON DELETE CASCADE
 );
