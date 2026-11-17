@@ -1,7 +1,7 @@
 -- ============================================================================
 -- CSE 111 Fall 2026: Project Checkpoint 2 Script
 -- Project Title: Music Distribution Database
--- Team Members: 
+-- Team Members: Evelyn Lobach , Nathan Roehrig
 -- File: Checkpoint2-script.sql
 -- ============================================================================
 
@@ -114,6 +114,7 @@ ORDER BY release_date;
 -- Statement 6: Genre Artist Count
 -- Explanation: Retrieves the amount of artists under each genre, in sorted order
 -- ----------------------------------------------------------------------------
+
 SELECT artist_genre [Genre], COUNT(*) [num_artists]
 FROM Artist
 GROUP BY Genre
@@ -124,6 +125,7 @@ ORDER BY num_artists DESC;
 -- Explanation: Retrieves relevant information from transactions involving an 
 -- artist from the past 12 months
 -- ----------------------------------------------------------------------------
+
 SELECT transaction_timestamp [Timestamp], transaction_amount [Amount], 
 transaction_message [Message], listener_username [Listener]
 FROM Transactions
@@ -133,6 +135,7 @@ WHERE artist_ID = 8 and Timestamp > datetime('now', '-12 months');
 -- Statement 8: Artist Total Earnings
 -- Explanation: Retrieve total earnings for an artist
 -- ----------------------------------------------------------------------------
+
 SELECT SUM(transaction_amount) [total]
 FROM Transactions
 WHERE artist_ID = 8;
@@ -141,6 +144,7 @@ WHERE artist_ID = 8;
 -- Statement 9: Artist Discography
 -- Explanation: Get all releases made by an artist
 -- ----------------------------------------------------------------------------
+
 SELECT release_title [Title], release_date [Date]
 FROM MusicRelease
 WHERE release_artist = 8;
@@ -149,6 +153,7 @@ WHERE release_artist = 8;
 -- Statement 10: Update Artist Description
 -- Explanation: Updates an artist's description
 -- ----------------------------------------------------------------------------
+
 UPDATE Artist
 SET artist_bio = 'Amber Harbor creates original indie rock recordings in a home
  studio.'
@@ -222,6 +227,7 @@ WHERE transaction_amount > (
 -- Statement 16: 
 -- Explanation: Get the full credits of a specific track
 -- ----------------------------------------------------------------------------
+
 SELECT artist_name [Artist], artist_role [Role]
 FROM Artist [a]
 JOIN TrackCredits [tc] ON tc.artist_id = a.artist_id
@@ -232,6 +238,7 @@ WHERE track_ID = 6;
 -- Explanation: Get each artist's follower count and display the most popular 
 -- first
 -- ----------------------------------------------------------------------------
+
 SELECT artist_name, artist_genre, COUNT(listener_username) [Followers]
 FROM Artist
 NATURAL JOIN ListenerFollows
@@ -243,6 +250,7 @@ ORDER BY Followers DESC, artist_genre;
 -- Explanation: Get the number of genres that a listener likes by looking at 
 -- their followed artists
 -- ----------------------------------------------------------------------------
+
 SELECT listener_username, COUNT(DISTINCT artist_genre) [num_genres]
 FROM Listener
 NATURAL JOIN ListenerFollows
@@ -253,12 +261,14 @@ GROUP BY listener_username;
 -- Statement 19: 
 -- Explanation: Get the top 5 highest selling genres based on artist sales
 -- ----------------------------------------------------------------------------
+
 SELECT artist_genre, SUM(transaction_amount) [total_amount]
 FROM Artist
 NATURAL JOIN Transactions
 GROUP BY artist_genre
 ORDER BY total_amount DESC
 LIMIT 5;
+
 -- ----------------------------------------------------------------------------
 -- Statement 20: 
 -- Explanation: Get all artists who posted music in September 2025
@@ -277,8 +287,8 @@ WHERE release_date LIKE '2025-09%'
 -- show which tracks have collabs which whom
 -- ----------------------------------------------------------------------------
 
-DROP VIEW IF EXISTS Collaborating Artists;
-CREATE VIEW Collaborating Artists
+DROP VIEW IF EXISTS CollaboratingArtists;
+CREATE VIEW CollaboratingArtists AS
 SELECT DISTINCT r.release_artist AS primary_artist_ID, t.track_ID, 
 tc.artist_ID AS credited_artist_ID
 FROM MusicRelease AS r
@@ -305,14 +315,34 @@ FROM ArtistPostCounts
 WHERE post_count = (SELECT MAX(post_count) FROM ArtistPostCounts);
 
 -- ----------------------------------------------------------------------------
--- Statement 23: 
--- Explanation: 
+-- Statement 23: Automated Collection Updating
+-- Explanation: Whenever a transaction is added into the database, the 
+-- corresponding release is added to the corresponding user's collection
 -- ----------------------------------------------------------------------------
 
+DROP TRIGGER IF EXISTS AddPurchasedReleaseToCollection;
+CREATE TRIGGER AddPurchasedReleaseToCollection
+AFTER INSERT ON Transactions
+FOR EACH ROW
+BEGIN
+    INSERT INTO ListenerCollection (listener_username, release_title, 
+    release_date)
+    VALUES (NEW.listener_username, NEW.release_title, NEW.release_date);
+END;
+
 -- ----------------------------------------------------------------------------
--- Statement 24: 
--- Explanation: 
+-- Statement 24: Query against the collabs view
+-- Explanation: Query CollaboratingArtists to see which artist pairs have 
+-- collabed more than once
 -- ----------------------------------------------------------------------------
+
+SELECT
+    MIN(primary_artist_ID, credited_artist_ID) AS artist_1,
+    MAX(primary_artist_ID, credited_artist_ID) AS artist_2,
+    COUNT(DISTINCT track_ID) AS collaboration_count
+FROM CollaboratingArtists
+GROUP BY artist_1, artist_2
+HAVING COUNT(DISTINCT track_ID) > 1;
 
 -- ----------------------------------------------------------------------------
 -- Statement 25: 
@@ -323,6 +353,7 @@ WHERE post_count = (SELECT MAX(post_count) FROM ArtistPostCounts);
 -- Statement 26: Most recent post
 -- Explanation: Gets each artist's most recent post
 -- ----------------------------------------------------------------------------
+
 SELECT artist_name, post_body
 FROM (
     SELECT artist_id, MAX(post_timestamp) [latest]
@@ -332,6 +363,7 @@ FROM (
 ) S JOIN Artist ON Artist.artist_id = S.artist_id
 JOIN Post ON Post.artist_id = Artist.artist_id 
 WHERE post_timestamp = latest;
+
 -- ----------------------------------------------------------------------------
 -- Statement 27: Artist supporters
 -- Explanation: Get each listener who follows a specific artist name and has 
@@ -355,11 +387,13 @@ WHERE artist_name = 'Amber Orchard';
 SELECT * FROM ArtistFollowers 
 INTERSECT 
 SELECT * FROM ArtistSupporters;
+
 -- ----------------------------------------------------------------------------
 -- Statement 28: Similar artist
 -- Explanation: For each artist, gets another artist with the highest overlap 
 -- in followers
 -- ----------------------------------------------------------------------------
+
 DROP VIEW IF EXISTS OverlappingFollowers;
 CREATE VIEW OverlappingFollowers AS
     SELECT COUNT(A.listener_username) [Overlap], A.artist_ID [artist_A], 
@@ -377,6 +411,7 @@ SELECT artist_A, artist_B, Overlap FROM
     FROM OverlappingFollowers [o]
     GROUP BY artist_A
 );
+
 -- ----------------------------------------------------------------------------
 -- Statement 29: Favorite artists
 -- Explanation: For every listener, gets the artist(s) from which they have the most releases in their collection
