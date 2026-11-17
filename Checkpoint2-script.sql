@@ -1,7 +1,7 @@
 -- ============================================================================
 -- CSE 111 Fall 2026: Project Checkpoint 2 Script
 -- Project Title: Music Distribution Database
--- Team Members: Evelyn Lobach , Nathan Roehrig
+-- Team Members: Evelyn Lobach, Nathan Roehrig
 -- File: Checkpoint2-script.sql
 -- ============================================================================
 
@@ -273,6 +273,7 @@ LIMIT 5;
 -- Statement 20: 
 -- Explanation: Get all artists who posted music in September 2025
 -- ----------------------------------------------------------------------------
+
 SELECT DISTINCT artist_name [ArtistName]
 FROM Artist NATURAL JOIN MusicRelease
 WHERE release_date LIKE '2025-09%'
@@ -345,9 +346,20 @@ GROUP BY artist_1, artist_2
 HAVING COUNT(DISTINCT track_ID) > 1;
 
 -- ----------------------------------------------------------------------------
--- Statement 25: 
--- Explanation: 
+-- Statement 25: Existing Posts in March
+-- Explanation: Returns all artists who released posts in March of 2025 using 
+-- an EXIST
 -- ----------------------------------------------------------------------------
+
+SELECT a.artist_ID, a.artist_name
+FROM Artist AS a
+WHERE EXISTS (
+    SELECT 1
+    FROM Post AS p
+    WHERE p.artist_ID = a.artist_ID
+      AND p.post_timestamp >= '2025-03-01'
+      AND p.post_timestamp < '2025-04-01'
+);
 
 -- ----------------------------------------------------------------------------
 -- Statement 26: Most recent post
@@ -414,8 +426,10 @@ SELECT artist_A, artist_B, Overlap FROM
 
 -- ----------------------------------------------------------------------------
 -- Statement 29: Favorite artists
--- Explanation: For every listener, gets the artist(s) from which they have the most releases in their collection
+-- Explanation: For every listener, gets the artist(s) from which they have 
+-- the most releases in their collection
 -- ----------------------------------------------------------------------------
+
 WITH BoughtReleases AS (
 SELECT listener_username, release_artist, COUNT(*) [releases]
 FROM ListenerCollection NATURAL JOIN MusicRelease
@@ -430,14 +444,16 @@ GROUP BY listener_username
 SELECT listener_username, release_artist
 FROM BoughtReleases [b] NATURAL JOIN MaxReleases [m]
 WHERE releases = max_releases;
+
 -- ----------------------------------------------------------------------------
 -- Statement 30: 
 -- Explanation: Finds the best selling release for every month of 2024
 -- ----------------------------------------------------------------------------
+
 WITH ReleaseTotals AS
 (
-    SELECT strftime('%m',transaction_timestamp) [month], release_title, release_date, 
-    SUM(transaction_amount) [total]
+    SELECT strftime('%m',transaction_timestamp) [month], release_title, 
+    release_date,  SUM(transaction_amount) [total]
     FROM MusicRelease NATURAL JOIN Transactions
     WHERE transaction_timestamp LIKE '2024%'
     GROUP BY month, release_title, release_date
@@ -449,5 +465,3 @@ BestSelling AS
     GROUP BY month
 )
 SELECT * FROM BestSelling;
-
-
