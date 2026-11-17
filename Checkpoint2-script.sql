@@ -16,11 +16,11 @@
 -- MEMBER CONTRIBUTIONS SUMMARY (GROUPED AT THE TOP)
 -- ============================================================================
 -- SECTION 1: SIMPLE STATEMENTS
--- Statement 01: 
--- Statement 02: 
--- Statement 03: 
--- Statement 04: 
--- Statement 05: 
+-- Statement 01: Nathan Roehrig 100%
+-- Statement 02: Nathan Roehrig 100%
+-- Statement 03: Nathan Roehrig 100%
+-- Statement 04: Nathan Roehrig 100%
+-- Statement 05: Nathan Roehrig 100%
 -- Statement 06: 
 -- Statement 07: 
 -- Statement 08: 
@@ -28,11 +28,11 @@
 -- Statement 10: 
 --
 -- SECTION 2: INTERMEDIATE STATEMENTS
--- Statement 11: 
--- Statement 12: 
--- Statement 13: 
--- Statement 14: 
--- Statement 15: 
+-- Statement 11: Nathan Roehrig 100%
+-- Statement 12: Nathan Roehrig 100%
+-- Statement 13: Nathan Roehrig 100%
+-- Statement 14: Nathan Roehrig 100%
+-- Statement 15: Nathan Roehrig 100%
 -- Statement 16: 
 -- Statement 17: 
 -- Statement 18: 
@@ -40,11 +40,11 @@
 -- Statement 20: 
 --
 -- SECTION 3: COMPLEX STATEMENTS
--- Statement 21: 
--- Statement 22: 
--- Statement 23: 
--- Statement 24: 
--- Statement 25: 
+-- Statement 21: Nathan Roehrig 100%
+-- Statement 22: Nathan Roehrig 100%
+-- Statement 23: Nathan Roehrig 100%
+-- Statement 24: Nathan Roehrig 100%
+-- Statement 25: Nathan Roehrig 100%
 -- Statement 26: 
 -- Statement 27: 
 -- Statement 28: 
@@ -72,24 +72,41 @@ FROM Post
 WHERE artist_ID = 1;
 
 -- ----------------------------------------------------------------------------
--- Statement 2: 
--- Explanation: 
+-- Statement 2: Tracks by Length
+-- Explanation: Return all tracks sorted by their length
 -- ----------------------------------------------------------------------------
 
--- ----------------------------------------------------------------------------
--- Statement 3: 
--- Explanation: 
--- ----------------------------------------------------------------------------
+SELECT track_ID as ID, track_title as Title, track_length/1000 as "Length (s)"
+FROM Track
+ORDER BY track_length DESC;
 
 -- ----------------------------------------------------------------------------
--- Statement 4: 
--- Explanation: 
+-- Statement 3: Insert a New Listener
+-- Explanation: Insert in a new listener account to the system with their email
 -- ----------------------------------------------------------------------------
 
+INSERT INTO Listener (listener_username, listener_email, listener_bio)
+VALUES ("listener_1000", "listener_1000@example.com", "A new user");
+
 -- ----------------------------------------------------------------------------
--- Statement 5: 
--- Explanation: 
+-- Statement 4: Delete an Artist
+-- Explanation: Removes an artist from the database, which will also cascade 
+-- delete their tracks, credits, and posts
 -- ----------------------------------------------------------------------------
+
+DELETE FROM Artist
+WHERE artist_id = 34;
+
+-- ----------------------------------------------------------------------------
+-- Statement 5: Return Free Releases
+-- Explanation: Retrieves all releases which cost $0 and sorts them by when 
+-- they were released
+-- ----------------------------------------------------------------------------
+
+SELECT release_title as Title, release_date as Date, release_type as type
+FROM MusicRelease
+WHERE release_price = 0
+ORDER BY release_date;
 
 -- ----------------------------------------------------------------------------
 -- Statement 6: Genre Artist Count
@@ -152,24 +169,49 @@ JOIN MusicRelease AS r
 WHERE r.release_artist = 4;
 
 -- ----------------------------------------------------------------------------
--- Statement 12: 
--- Explanation: 
+-- Statement 12: Get Posts Since a Day
+-- Explanation: Aggregates all posts by artists and counts how many of them 
+-- were posted since July of 2025
 -- ----------------------------------------------------------------------------
 
--- ----------------------------------------------------------------------------
--- Statement 13: 
--- Explanation: 
--- ----------------------------------------------------------------------------
+SELECT artist_ID, COUNT(*) AS post_count
+FROM Post
+WHERE post_timestamp >= '2025-07-01'
+GROUP BY artist_ID;
 
 -- ----------------------------------------------------------------------------
--- Statement 14: 
--- Explanation: 
+-- Statement 13: Artist Increases Prices
+-- Explanation: Updates the price of all releases conditionally based on which
+-- artist released it, as a bulk price adjustment
 -- ----------------------------------------------------------------------------
 
+UPDATE MusicRelease
+SET release_price = release_price + 1
+WHERE release_artist = 8;
+
 -- ----------------------------------------------------------------------------
--- Statement 15: 
--- Explanation: 
+-- Statement 14: Return Highly Following Listeners
+-- Explanation: Groups all users and returns only those who follow at least 10 
+-- distinct artists
 -- ----------------------------------------------------------------------------
+
+SELECT listener_username, COUNT(DISTINCT artist_ID) AS artists_followed
+FROM ListenerFollows
+GROUP BY listener_username
+HAVING COUNT(DISTINCT artist_ID) >= 10;
+
+-- ----------------------------------------------------------------------------
+-- Statement 15: Return High Costing Transactions
+-- Explanation: Queries the average transaction amounts, and returns all 
+-- transactions which costed a higher amount
+-- ----------------------------------------------------------------------------
+
+SELECT transaction_id, transaction_amount
+FROM Transactions
+WHERE transaction_amount > (
+    SELECT AVG(transaction_amount)
+    FROM Transactions
+);
 
 -- ----------------------------------------------------------------------------
 -- Statement 16: 
@@ -238,9 +280,20 @@ JOIN TrackCredits AS tc ON tc.track_ID = t.track_ID
 WHERE tc.artist_ID <> r.release_artist;
 
 -- ----------------------------------------------------------------------------
--- Statement 22: 
--- Explanation: 
+-- Statement 22: Most Posting Artists
+-- Explanation: Creates a WITH clause holding the amount of posts made by every
+-- artist, and returns the artists who have the most posts
 -- ----------------------------------------------------------------------------
+
+WITH ArtistPostCounts AS (
+    SELECT a.artist_ID, a.artist_name, COUNT(p.post_id) AS post_count
+    FROM Artist AS a
+    LEFT JOIN Post AS p ON p.artist_ID = a.artist_ID
+    GROUP BY a.artist_ID, a.artist_name
+)
+SELECT artist_ID, artist_name, post_count
+FROM ArtistPostCounts
+WHERE post_count = (SELECT MAX(post_count) FROM ArtistPostCounts);
 
 -- ----------------------------------------------------------------------------
 -- Statement 23: 
